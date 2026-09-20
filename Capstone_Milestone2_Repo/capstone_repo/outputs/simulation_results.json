@@ -1,0 +1,26 @@
+{
+  "sim_swap_wave": {
+    "n_simulated_accounts": 25,
+    "expected_pattern": "high alert rate (true attack pattern)",
+    "mean_supervised_score": 0.975,
+    "mean_anomaly_score": 0.988,
+    "mean_combined_risk": 0.98,
+    "alert_rate_at_0.5": 1.0
+  },
+  "credential_stuffing": {
+    "n_simulated_accounts": 30,
+    "expected_pattern": "moderate-high alert rate via failure-rate/anomaly signal",
+    "mean_supervised_score": 0.633,
+    "mean_anomaly_score": 0.837,
+    "mean_combined_risk": 0.714,
+    "alert_rate_at_0.5": 1.0
+  },
+  "legit_travel": {
+    "n_simulated_accounts": 25,
+    "expected_pattern": "low alert rate (negative control, legitimate behaviour)",
+    "mean_supervised_score": 0.54,
+    "mean_anomaly_score": 0.54,
+    "mean_combined_risk": 0.54,
+    "alert_rate_at_0.5": 0.76
+  }
+}

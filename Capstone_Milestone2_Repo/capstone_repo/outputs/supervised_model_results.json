@@ -1,0 +1,47 @@
+{
+  "metrics": {
+    "precision": 1.0,
+    "recall": 0.857,
+    "f1": 0.923,
+    "pr_auc": 1.0,
+    "roc_auc": 1.0,
+    "n_test": 240,
+    "n_positive_test": 14
+  },
+  "confusion_matrix": [
+    [
+      226,
+      0
+    ],
+    [
+      2,
+      12
+    ]
+  ],
+  "top_features": [
+    {
+      "feature": "geo_dispersion",
+      "importance": 0.319
+    },
+    {
+      "feature": "mean_amount",
+      "importance": 0.248
+    },
+    {
+      "feature": "max_amount",
+      "importance": 0.163
+    },
+    {
+      "feature": "total_amount",
+      "importance": 0.128
+    },
+    {
+      "feature": "failure_rate",
+      "importance": 0.042
+    },
+    {
+      "feature": "mean_mfa",
+      "importance": 0.039
+    }
+  ]
+}

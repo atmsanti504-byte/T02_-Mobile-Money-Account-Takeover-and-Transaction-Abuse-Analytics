@@ -1,0 +1,43 @@
+{
+  "auth_events.csv": {
+    "event_id": "unique authentication event id",
+    "account_id": "account identifier (synthetic)",
+    "timestamp": "event timestamp",
+    "device_id": "hashed device identifier",
+    "login_result": "success | failed",
+    "mfa_flag": "1 if multi-factor auth was used",
+    "failure_reason": "reason code for failed logins",
+    "latitude/longitude": "coarse, city-level synthetic location",
+    "is_account_takeover": "GROUND TRUTH synthetic label, evaluation only, not a model input"
+  },
+  "transactions.csv": {
+    "transaction_id": "unique transaction id",
+    "account_id": "account identifier (synthetic)",
+    "timestamp": "transaction timestamp",
+    "amount": "transaction amount (synthetic currency units)",
+    "channel": "p2p_transfer | merchant_payment | cash_out | bill_payment",
+    "counterparty_id": "hashed counterparty identifier",
+    "is_fraud": "GROUND TRUTH synthetic label, evaluation only, not a model input"
+  },
+  "device_events.csv": {
+    "event_id": "unique device/SIM change event id",
+    "account_id": "account identifier (synthetic)",
+    "change_type": "sim_change | device_change | os_update",
+    "device_model_hash": "hashed device model identifier",
+    "is_suspicious": "GROUND TRUTH synthetic label, evaluation only, not a model input"
+  },
+  "support_tickets.csv": {
+    "ticket_id": "unique ticket id",
+    "account_id_hashed": "hashed account identifier",
+    "text": "synthetic free-text complaint",
+    "category": "account_takeover | billing_dispute | technical_issue | general_inquiry"
+  },
+  "account_features.csv": {
+    "n_logins/n_failed/failure_rate": "login volume and failure behaviour per account",
+    "mean_mfa": "share of logins using MFA",
+    "geo_dispersion": "spread of login coordinates (proxy for location anomaly)",
+    "n_txns/total_amount/mean_amount/max_amount/n_cashout": "transaction behaviour per account",
+    "n_device_events/n_sim_changes": "device/SIM change activity per account",
+    "label_account_takeover": "GROUND TRUTH synthetic label used only for evaluation"
+  }
+}

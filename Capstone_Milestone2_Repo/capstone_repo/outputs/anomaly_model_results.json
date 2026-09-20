@@ -1,0 +1,6 @@
+{
+  "top_pct_flagged": 0.05,
+  "n_flagged": 40,
+  "precision_at_topN": 1.0,
+  "baseline_positive_rate": 0.06
+}

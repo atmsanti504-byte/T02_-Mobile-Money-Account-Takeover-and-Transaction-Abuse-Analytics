@@ -1,0 +1,1201 @@
+ticket_id,account_id_hashed,timestamp,text,category
+TCK000000,H37134,2026-06-04 01:36:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000001,H46395,2026-07-03 17:00:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000002,H75294,2026-07-28 22:52:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000003,H57522,2026-06-11 06:40:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000004,H22672,2026-06-20 22:39:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000005,H88489,2026-07-26 11:34:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000006,H90071,2026-07-17 04:37:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000007,H54524,2026-07-03 19:00:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000008,H34223,2026-06-09 08:27:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000009,H19380,2026-06-22 14:30:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000010,H67375,2026-06-12 17:26:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000011,H06413,2026-06-16 17:59:00,"I did not make this transfer, someone accessed my account without permission.",account_takeover
+TCK000012,H01276,2026-07-09 09:46:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000013,H80537,2026-06-07 06:04:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000014,H29064,2026-06-15 21:42:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000015,H19042,2026-06-24 06:27:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000016,H33656,2026-07-03 20:25:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000017,H48398,2026-07-15 22:00:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000018,H01156,2026-07-05 18:08:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000019,H72014,2026-07-14 00:07:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000020,H55305,2026-07-17 04:57:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000021,H01092,2026-07-30 07:42:00,I received an OTP I never requested and then my balance dropped.,account_takeover
+TCK000022,H49306,2026-06-30 03:06:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000023,H54265,2026-07-04 13:41:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000024,H54535,2026-07-01 03:03:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000025,H37244,2026-06-04 04:37:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000026,H08356,2026-07-04 09:15:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000027,H77274,2026-06-15 22:13:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000028,H89881,2026-06-12 08:07:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000029,H04551,2026-06-02 16:38:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000030,H19727,2026-06-01 20:06:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000031,H29580,2026-07-26 05:25:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000032,H35416,2026-07-01 09:18:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000033,H12233,2026-06-20 17:27:00,My SIM card stopped working and now money is missing from my wallet.,account_takeover
+TCK000034,H58548,2026-07-29 00:11:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000035,H87569,2026-07-10 15:08:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000036,H80496,2026-07-06 05:20:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000037,H69062,2026-06-20 01:44:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000038,H91714,2026-06-04 13:26:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000039,H30695,2026-07-12 13:27:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000040,H74782,2026-06-12 14:58:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000041,H28991,2026-06-26 17:20:00,"I did not make this transfer, someone accessed my account without permission.",account_takeover
+TCK000042,H08521,2026-06-17 09:30:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000043,H16667,2026-07-05 11:30:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000044,H16111,2026-07-23 18:36:00,My SIM card stopped working and now money is missing from my wallet.,account_takeover
+TCK000045,H10081,2026-07-25 14:05:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000046,H37142,2026-07-04 01:48:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000047,H51181,2026-07-26 05:08:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000048,H89179,2026-07-01 03:29:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000049,H05663,2026-07-30 07:50:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000050,H40459,2026-07-07 12:11:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000051,H29064,2026-06-19 03:15:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000052,H74664,2026-07-18 01:13:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000053,H61316,2026-07-01 18:11:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000054,H56895,2026-06-16 14:54:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000055,H70437,2026-06-30 19:33:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000056,H97695,2026-07-14 13:04:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000057,H04242,2026-06-18 22:47:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000058,H55098,2026-06-11 15:28:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000059,H17666,2026-06-22 05:09:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000060,H52736,2026-07-21 09:28:00,I received an OTP I never requested and then my balance dropped.,account_takeover
+TCK000061,H39012,2026-06-26 15:45:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000062,H37528,2026-07-12 20:33:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000063,H00246,2026-06-15 09:12:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000064,H34223,2026-07-12 09:36:00,My SIM card stopped working and now money is missing from my wallet.,account_takeover
+TCK000065,H21942,2026-07-08 14:47:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000066,H67717,2026-07-29 08:10:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000067,H10832,2026-06-25 05:52:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000068,H71840,2026-06-27 21:35:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000069,H16111,2026-06-20 18:37:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000070,H61316,2026-06-04 11:25:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000071,H20073,2026-06-30 09:01:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000072,H77556,2026-07-07 15:08:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000073,H07796,2026-06-06 16:50:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000074,H67070,2026-07-06 11:52:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000075,H33922,2026-06-13 09:50:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000076,H62602,2026-06-23 23:47:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000077,H63020,2026-07-08 20:52:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000078,H82313,2026-07-28 16:34:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000079,H18825,2026-07-29 08:19:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000080,H01156,2026-07-15 10:09:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000081,H38200,2026-06-21 01:37:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000082,H86291,2026-07-06 01:53:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000083,H54332,2026-06-03 08:46:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000084,H52949,2026-07-18 11:45:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000085,H54103,2026-07-13 14:37:00,"I did not make this transfer, someone accessed my account without permission.",account_takeover
+TCK000086,H18825,2026-06-24 23:53:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000087,H78083,2026-06-19 09:30:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000088,H80894,2026-06-05 22:21:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000089,H29064,2026-07-30 22:27:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000090,H56927,2026-07-02 21:49:00,Someone changed my PIN and I can no longer log in to my account.,account_takeover
+TCK000091,H77274,2026-07-21 08:35:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000092,H20099,2026-07-23 00:49:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000093,H16128,2026-07-22 18:19:00,My SIM card stopped working and now money is missing from my wallet.,account_takeover
+TCK000094,H44992,2026-06-12 18:29:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000095,H50760,2026-06-02 03:40:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000096,H45587,2026-07-15 04:21:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000097,H74812,2026-06-18 21:51:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000098,H96586,2026-07-18 20:24:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000099,H39012,2026-06-21 09:03:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000100,H23087,2026-06-01 10:10:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000101,H41011,2026-07-01 13:49:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000102,H35641,2026-06-29 00:07:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000103,H80894,2026-07-06 22:25:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000104,H26381,2026-07-19 11:44:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000105,H52842,2026-06-17 06:16:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000106,H79685,2026-06-13 07:25:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000107,H26556,2026-06-09 22:47:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000108,H22995,2026-06-01 18:58:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000109,H69328,2026-06-23 10:49:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000110,H83842,2026-07-22 18:09:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000111,H28915,2026-07-28 23:17:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000112,H77274,2026-07-09 05:51:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000113,H38437,2026-06-24 01:01:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000114,H19768,2026-07-26 19:46:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000115,H44960,2026-06-13 13:33:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000116,H50308,2026-06-11 15:45:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000117,H94335,2026-06-13 14:15:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000118,H20916,2026-07-06 07:56:00,I received an OTP I never requested and then my balance dropped.,account_takeover
+TCK000119,H87517,2026-06-18 19:41:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000120,H82921,2026-07-23 14:43:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000121,H48438,2026-07-24 12:34:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000122,H26465,2026-06-08 15:50:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000123,H82165,2026-07-18 16:42:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000124,H15236,2026-07-10 07:23:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000125,H25844,2026-07-17 10:41:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000126,H20696,2026-07-10 10:50:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000127,H74782,2026-07-01 02:00:00,"I did not make this transfer, someone accessed my account without permission.",account_takeover
+TCK000128,H77024,2026-06-23 12:57:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000129,H03468,2026-07-23 01:06:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000130,H66342,2026-07-04 02:30:00,"I did not make this transfer, someone accessed my account without permission.",account_takeover
+TCK000131,H65188,2026-06-29 13:55:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000132,H64342,2026-07-06 10:13:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000133,H55312,2026-07-18 10:29:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000134,H84284,2026-06-30 23:11:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000135,H97027,2026-06-06 00:54:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000136,H05172,2026-07-25 23:15:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000137,H20073,2026-06-23 07:20:00,Someone changed my PIN and I can no longer log in to my account.,account_takeover
+TCK000138,H14396,2026-06-12 07:02:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000139,H25120,2026-06-29 09:27:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000140,H53005,2026-07-24 21:15:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000141,H31744,2026-07-09 17:44:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000142,H44095,2026-07-12 04:43:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000143,H75928,2026-06-15 18:29:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000144,H76049,2026-06-05 15:06:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000145,H99887,2026-07-16 20:39:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000146,H22672,2026-06-09 20:19:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000147,H72014,2026-06-02 20:30:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000148,H28005,2026-06-08 00:13:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000149,H79719,2026-06-15 13:12:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000150,H98013,2026-06-24 12:23:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000151,H42882,2026-06-10 05:22:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000152,H68304,2026-06-28 03:34:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000153,H62986,2026-06-02 11:24:00,My SIM card stopped working and now money is missing from my wallet.,account_takeover
+TCK000154,H13188,2026-07-06 05:18:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000155,H09092,2026-06-13 05:59:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000156,H51191,2026-07-17 01:42:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000157,H25893,2026-07-07 13:32:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000158,H00023,2026-07-24 03:53:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000159,H27368,2026-07-23 20:45:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000160,H61823,2026-07-18 02:54:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000161,H08356,2026-06-28 12:15:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000162,H11763,2026-06-28 04:14:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000163,H42658,2026-06-30 13:48:00,My SIM card stopped working and now money is missing from my wallet.,account_takeover
+TCK000164,H58932,2026-06-29 05:24:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000165,H99559,2026-06-11 07:25:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000166,H73422,2026-06-29 15:28:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000167,H65094,2026-07-02 15:34:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000168,H91714,2026-07-09 18:16:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000169,H37244,2026-06-17 03:54:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000170,H86792,2026-07-11 00:36:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000171,H17872,2026-06-07 00:07:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000172,H91429,2026-07-21 05:42:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000173,H24467,2026-06-07 00:22:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000174,H25920,2026-07-07 16:28:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000175,H78933,2026-07-15 05:42:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000176,H67941,2026-07-12 03:15:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000177,H10391,2026-06-12 06:57:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000178,H37134,2026-07-13 16:52:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000179,H06218,2026-06-16 04:03:00,Someone changed my PIN and I can no longer log in to my account.,account_takeover
+TCK000180,H76528,2026-06-21 07:39:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000181,H42658,2026-06-07 23:25:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000182,H30424,2026-06-01 11:40:00,My SIM card stopped working and now money is missing from my wallet.,account_takeover
+TCK000183,H08206,2026-07-12 18:47:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000184,H16166,2026-07-15 05:55:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000185,H48891,2026-07-24 08:26:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000186,H89433,2026-07-20 12:12:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000187,H21942,2026-07-05 14:10:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000188,H90564,2026-07-15 21:09:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000189,H65188,2026-06-13 23:03:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000190,H74365,2026-06-29 11:59:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000191,H45587,2026-07-30 02:57:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000192,H31747,2026-07-22 10:07:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000193,H70843,2026-07-20 04:26:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000194,H47176,2026-07-24 12:41:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000195,H12233,2026-07-25 20:00:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000196,H35641,2026-07-23 17:33:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000197,H23963,2026-06-07 11:06:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000198,H53196,2026-06-01 08:06:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000199,H40459,2026-07-20 14:00:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000200,H71005,2026-06-29 15:59:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000201,H16563,2026-06-02 17:17:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000202,H85963,2026-07-23 15:12:00,I received an OTP I never requested and then my balance dropped.,account_takeover
+TCK000203,H20596,2026-06-18 04:15:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000204,H22995,2026-06-11 08:26:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000205,H10816,2026-06-18 15:01:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000206,H76294,2026-06-04 06:53:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000207,H17100,2026-07-14 22:25:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000208,H24610,2026-07-15 06:32:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000209,H82313,2026-06-27 23:21:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000210,H29771,2026-06-25 05:43:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000211,H07888,2026-06-24 00:47:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000212,H80537,2026-07-17 21:46:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000213,H08681,2026-07-30 01:57:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000214,H44090,2026-07-21 10:59:00,Someone changed my PIN and I can no longer log in to my account.,account_takeover
+TCK000215,H62602,2026-06-03 07:34:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000216,H19228,2026-06-15 07:58:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000217,H10832,2026-06-04 07:52:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000218,H40740,2026-06-17 00:50:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000219,H05663,2026-06-27 21:39:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000220,H61077,2026-06-17 10:00:00,Someone changed my PIN and I can no longer log in to my account.,account_takeover
+TCK000221,H81465,2026-06-09 16:38:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000222,H44993,2026-06-03 13:22:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000223,H51606,2026-07-15 05:21:00,"I did not make this transfer, someone accessed my account without permission.",account_takeover
+TCK000224,H72014,2026-06-19 19:24:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000225,H10271,2026-06-19 08:16:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000226,H94939,2026-06-11 08:49:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000227,H06933,2026-07-05 10:14:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000228,H70394,2026-06-29 15:45:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000229,H16405,2026-06-04 21:35:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000230,H01156,2026-07-30 01:17:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000231,H61823,2026-06-27 10:30:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000232,H01797,2026-06-03 08:58:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000233,H21552,2026-06-19 21:14:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000234,H37012,2026-07-05 21:10:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000235,H05531,2026-06-26 03:34:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000236,H04149,2026-06-27 03:53:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000237,H39832,2026-07-05 14:59:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000238,H22130,2026-06-09 21:41:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000239,H19228,2026-06-05 09:39:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000240,H16857,2026-07-27 19:07:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000241,H17239,2026-06-13 09:25:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000242,H26355,2026-07-14 12:43:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000243,H46604,2026-06-25 06:53:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000244,H01758,2026-06-14 10:09:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000245,H41011,2026-06-09 16:34:00,"I did not make this transfer, someone accessed my account without permission.",account_takeover
+TCK000246,H16927,2026-06-24 12:14:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000247,H25120,2026-07-14 05:14:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000248,H34228,2026-06-07 03:01:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000249,H43113,2026-06-19 01:40:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000250,H13872,2026-07-27 19:58:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000251,H15236,2026-06-03 23:03:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000252,H08891,2026-06-25 05:12:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000253,H37508,2026-06-11 15:40:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000254,H86792,2026-06-06 13:38:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000255,H38200,2026-07-23 08:12:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000256,H35416,2026-06-11 09:05:00,"I did not make this transfer, someone accessed my account without permission.",account_takeover
+TCK000257,H64342,2026-07-28 22:48:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000258,H30786,2026-07-22 22:38:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000259,H73592,2026-07-24 17:48:00,My SIM card stopped working and now money is missing from my wallet.,account_takeover
+TCK000260,H09900,2026-06-27 22:46:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000261,H22005,2026-06-20 17:26:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000262,H58455,2026-07-05 08:04:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000263,H37528,2026-07-15 21:13:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000264,H57459,2026-07-30 12:26:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000265,H76635,2026-06-24 21:54:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000266,H37137,2026-06-12 07:02:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000267,H36244,2026-07-11 21:39:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000268,H24610,2026-06-17 20:15:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000269,H95498,2026-07-24 11:03:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000270,H93991,2026-06-12 06:17:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000271,H44000,2026-06-23 02:39:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000272,H68066,2026-06-16 23:05:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000273,H99887,2026-06-02 16:08:00,I received an OTP I never requested and then my balance dropped.,account_takeover
+TCK000274,H93870,2026-07-06 05:58:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000275,H24767,2026-06-15 05:09:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000276,H92161,2026-07-24 06:43:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000277,H04433,2026-07-22 11:19:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000278,H97835,2026-06-06 20:25:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000279,H55305,2026-07-09 21:49:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000280,H51606,2026-06-10 00:00:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000281,H76049,2026-06-06 02:09:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000282,H65188,2026-06-27 22:41:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000283,H29658,2026-06-09 15:04:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000284,H04171,2026-06-04 22:59:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000285,H85963,2026-07-26 17:06:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000286,H37137,2026-06-13 20:24:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000287,H91589,2026-06-18 06:48:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000288,H51519,2026-06-27 22:23:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000289,H20300,2026-06-06 22:39:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000290,H03750,2026-06-20 00:57:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000291,H25844,2026-06-07 16:37:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000292,H35641,2026-06-29 22:42:00,"I did not make this transfer, someone accessed my account without permission.",account_takeover
+TCK000293,H74464,2026-06-08 04:39:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000294,H16667,2026-06-07 06:59:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000295,H78380,2026-07-05 09:02:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000296,H99559,2026-07-08 05:47:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000297,H67046,2026-07-05 13:09:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000298,H89543,2026-06-09 20:57:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000299,H20495,2026-06-01 02:20:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000300,H37692,2026-07-18 16:38:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000301,H66147,2026-06-06 23:52:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000302,H93991,2026-06-23 08:12:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000303,H67530,2026-06-05 22:31:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000304,H76635,2026-06-09 21:25:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000305,H29658,2026-06-04 07:18:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000306,H57752,2026-07-16 02:54:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000307,H94071,2026-06-03 21:37:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000308,H43744,2026-06-02 17:56:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000309,H61316,2026-07-19 02:22:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000310,H25241,2026-06-27 23:45:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000311,H59019,2026-06-15 06:01:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000312,H78380,2026-07-21 15:38:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000313,H82938,2026-06-30 07:02:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000314,H69446,2026-06-03 05:19:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000315,H51213,2026-07-01 23:47:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000316,H05531,2026-07-04 22:14:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000317,H26490,2026-06-18 00:35:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000318,H67466,2026-06-19 09:22:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000319,H87569,2026-06-06 08:09:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000320,H43427,2026-06-18 12:00:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000321,H82255,2026-07-19 20:20:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000322,H77556,2026-06-22 22:02:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000323,H34223,2026-06-06 19:12:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000324,H84684,2026-07-08 01:25:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000325,H88489,2026-07-11 00:03:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000326,H44992,2026-06-01 03:49:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000327,H37750,2026-07-19 06:13:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000328,H37134,2026-07-29 12:55:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000329,H10832,2026-07-08 06:03:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000330,H67301,2026-06-15 03:36:00,"I did not make this transfer, someone accessed my account without permission.",account_takeover
+TCK000331,H41369,2026-07-15 13:36:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000332,H08521,2026-07-01 12:28:00,Someone changed my PIN and I can no longer log in to my account.,account_takeover
+TCK000333,H60839,2026-06-25 03:11:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000334,H95855,2026-07-01 02:37:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000335,H75587,2026-07-19 04:06:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000336,H41884,2026-07-20 05:56:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000337,H52399,2026-06-11 17:14:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000338,H77755,2026-06-23 17:16:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000339,H65664,2026-06-12 04:05:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000340,H65188,2026-07-17 08:50:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000341,H08602,2026-06-14 17:09:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000342,H68251,2026-07-01 10:59:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000343,H22995,2026-06-11 08:05:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000344,H19455,2026-07-11 07:35:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000345,H34525,2026-06-24 20:02:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000346,H18825,2026-06-23 22:31:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000347,H30178,2026-07-13 01:59:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000348,H86021,2026-07-18 02:59:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000349,H01105,2026-06-23 02:34:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000350,H85901,2026-06-09 04:02:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000351,H29771,2026-07-01 20:04:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000352,H16927,2026-06-22 03:09:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000353,H54265,2026-06-11 11:19:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000354,H57800,2026-06-09 17:48:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000355,H37244,2026-06-28 01:20:00,My SIM card stopped working and now money is missing from my wallet.,account_takeover
+TCK000356,H21552,2026-07-27 14:08:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000357,H18825,2026-07-23 16:07:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000358,H46395,2026-07-15 17:33:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000359,H78311,2026-06-20 17:09:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000360,H68025,2026-07-11 14:11:00,Someone changed my PIN and I can no longer log in to my account.,account_takeover
+TCK000361,H03002,2026-07-16 09:23:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000362,H28915,2026-06-05 01:33:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000363,H34525,2026-06-19 13:29:00,My SIM card stopped working and now money is missing from my wallet.,account_takeover
+TCK000364,H06218,2026-07-24 16:57:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000365,H84582,2026-06-25 00:28:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000366,H82314,2026-07-25 08:01:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000367,H00184,2026-06-26 22:32:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000368,H22242,2026-06-16 08:38:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000369,H26381,2026-06-19 08:13:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000370,H52460,2026-07-27 05:14:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000371,H75928,2026-06-15 09:54:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000372,H66703,2026-07-13 16:25:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000373,H52399,2026-07-23 18:47:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000374,H01592,2026-06-01 22:08:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000375,H25376,2026-06-04 06:50:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000376,H29580,2026-07-27 06:54:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000377,H36558,2026-07-15 16:39:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000378,H05236,2026-07-01 03:53:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000379,H47225,2026-06-03 15:18:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000380,H32914,2026-06-04 02:41:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000381,H01592,2026-07-30 08:15:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000382,H04433,2026-07-19 21:20:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000383,H43113,2026-06-07 13:21:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000384,H48564,2026-06-18 17:59:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000385,H57597,2026-07-03 15:21:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000386,H77866,2026-06-26 09:09:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000387,H53920,2026-07-20 19:07:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000388,H74812,2026-06-30 02:39:00,My SIM card stopped working and now money is missing from my wallet.,account_takeover
+TCK000389,H29063,2026-07-02 10:49:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000390,H26556,2026-06-13 23:31:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000391,H25120,2026-06-08 04:12:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000392,H04242,2026-06-22 22:03:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000393,H41327,2026-07-15 16:12:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000394,H49306,2026-07-18 02:54:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000395,H75751,2026-07-28 21:49:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000396,H37671,2026-07-06 21:23:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000397,H31239,2026-06-19 22:11:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000398,H46650,2026-06-02 09:24:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000399,H08435,2026-06-09 19:06:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000400,H00978,2026-06-26 06:06:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000401,H90422,2026-06-09 08:51:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000402,H37109,2026-07-08 19:23:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000403,H55824,2026-07-29 14:48:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000404,H66299,2026-07-03 04:37:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000405,H86291,2026-06-04 17:25:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000406,H73060,2026-06-30 14:08:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000407,H12257,2026-06-21 15:51:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000408,H65094,2026-07-26 00:29:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000409,H71005,2026-06-03 16:49:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000410,H75118,2026-07-16 10:49:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000411,H29250,2026-06-19 18:18:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000412,H37528,2026-06-23 05:51:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000413,H32914,2026-06-16 18:35:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000414,H01797,2026-06-13 10:38:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000415,H27034,2026-07-24 00:51:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000416,H77879,2026-07-04 05:37:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000417,H57522,2026-06-19 02:47:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000418,H20597,2026-06-09 12:38:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000419,H69328,2026-07-11 17:55:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000420,H74901,2026-06-04 23:43:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000421,H13188,2026-06-25 06:09:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000422,H22462,2026-06-23 16:07:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000423,H54524,2026-07-15 12:43:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000424,H87569,2026-06-11 17:00:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000425,H81998,2026-07-30 17:29:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000426,H82313,2026-06-03 16:55:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000427,H26050,2026-06-14 17:37:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000428,H41369,2026-06-14 07:36:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000429,H75334,2026-07-12 17:03:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000430,H13385,2026-06-09 06:56:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000431,H99559,2026-06-21 02:14:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000432,H15236,2026-07-14 11:36:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000433,H90422,2026-07-15 12:25:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000434,H33368,2026-06-20 20:44:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000435,H62054,2026-06-09 02:54:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000436,H81954,2026-07-17 14:17:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000437,H22258,2026-06-10 05:30:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000438,H63882,2026-07-11 10:25:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000439,H30786,2026-07-18 05:42:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000440,H01592,2026-07-08 16:46:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000441,H20035,2026-07-19 23:23:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000442,H09430,2026-06-28 20:30:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000443,H37508,2026-06-04 12:29:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000444,H46478,2026-07-07 11:17:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000445,H31763,2026-07-11 10:42:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000446,H00023,2026-07-20 03:47:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000447,H35993,2026-06-21 05:49:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000448,H08521,2026-06-02 06:44:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000449,H14780,2026-06-22 13:49:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000450,H37137,2026-07-15 10:53:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000451,H16166,2026-07-20 09:12:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000452,H17100,2026-06-07 03:14:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000453,H18732,2026-06-21 20:21:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000454,H77274,2026-06-16 23:22:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000455,H89803,2026-07-25 15:02:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000456,H68066,2026-07-22 23:05:00,Someone changed my PIN and I can no longer log in to my account.,account_takeover
+TCK000457,H99337,2026-07-16 02:37:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000458,H92303,2026-07-14 16:07:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000459,H58056,2026-07-25 18:32:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000460,H57522,2026-06-29 10:14:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000461,H33997,2026-06-13 11:02:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000462,H13577,2026-07-12 02:55:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000463,H80098,2026-06-20 07:43:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000464,H49993,2026-07-22 10:01:00,Someone changed my PIN and I can no longer log in to my account.,account_takeover
+TCK000465,H77755,2026-07-29 01:48:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000466,H34238,2026-07-25 10:56:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000467,H62651,2026-06-28 09:01:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000468,H56874,2026-06-18 12:39:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000469,H73459,2026-06-07 03:09:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000470,H55070,2026-07-09 05:24:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000471,H67717,2026-07-28 01:29:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000472,H33865,2026-06-08 18:01:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000473,H24016,2026-06-24 21:46:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000474,H75294,2026-06-15 23:19:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000475,H29435,2026-06-04 08:24:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000476,H82938,2026-07-24 09:00:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000477,H72509,2026-07-20 15:31:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000478,H53338,2026-07-04 11:05:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000479,H81408,2026-07-29 14:00:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000480,H65429,2026-06-12 10:41:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000481,H14031,2026-06-05 12:06:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000482,H05252,2026-06-09 08:29:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000483,H34047,2026-07-10 16:56:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000484,H20696,2026-06-01 06:22:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000485,H98668,2026-07-11 06:40:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000486,H08356,2026-07-23 03:08:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000487,H09155,2026-06-12 07:38:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000488,H24467,2026-06-22 00:55:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000489,H81465,2026-06-11 08:36:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000490,H81706,2026-07-05 05:59:00,Someone changed my PIN and I can no longer log in to my account.,account_takeover
+TCK000491,H59425,2026-06-19 15:56:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000492,H73806,2026-07-12 00:56:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000493,H65429,2026-07-28 05:42:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000494,H23252,2026-07-09 12:30:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000495,H77720,2026-06-28 14:18:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000496,H74664,2026-06-08 13:52:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000497,H15338,2026-06-05 18:18:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000498,H80556,2026-07-09 09:44:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000499,H77906,2026-06-02 11:22:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000500,H85901,2026-07-16 15:36:00,My SIM card stopped working and now money is missing from my wallet.,account_takeover
+TCK000501,H04002,2026-07-30 03:03:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000502,H51213,2026-06-21 16:51:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000503,H69719,2026-07-14 12:03:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000504,H26392,2026-06-23 01:33:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000505,H04954,2026-06-05 22:55:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000506,H37203,2026-06-22 01:56:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000507,H20564,2026-06-28 10:37:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000508,H66085,2026-06-11 00:19:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000509,H41327,2026-07-08 01:16:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000510,H58056,2026-06-23 01:48:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000511,H33997,2026-06-03 19:02:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000512,H09834,2026-07-18 09:25:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000513,H20035,2026-07-02 03:08:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000514,H51606,2026-07-15 21:11:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000515,H86291,2026-07-27 17:23:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000516,H58971,2026-06-18 21:43:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000517,H79685,2026-06-02 12:01:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000518,H08891,2026-07-11 01:41:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000519,H30583,2026-06-03 18:45:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000520,H08356,2026-06-02 11:17:00,Someone changed my PIN and I can no longer log in to my account.,account_takeover
+TCK000521,H48564,2026-07-04 18:48:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000522,H42566,2026-07-27 10:55:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000523,H16563,2026-07-24 21:44:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000524,H76068,2026-07-21 19:13:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000525,H10332,2026-06-13 19:05:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000526,H00023,2026-06-19 05:33:00,I received an OTP I never requested and then my balance dropped.,account_takeover
+TCK000527,H44808,2026-07-05 17:16:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000528,H91080,2026-06-15 22:12:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000529,H54445,2026-06-19 17:06:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000530,H21861,2026-06-16 10:57:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000531,H58548,2026-07-08 07:29:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000532,H80098,2026-07-20 07:21:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000533,H43427,2026-06-25 08:22:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000534,H94939,2026-07-13 10:26:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000535,H68251,2026-07-09 19:01:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000536,H55305,2026-06-15 06:51:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000537,H03552,2026-07-15 06:38:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000538,H76294,2026-06-03 11:31:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000539,H31239,2026-06-21 14:14:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000540,H67542,2026-06-20 04:47:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000541,H79866,2026-06-22 21:04:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000542,H61481,2026-06-26 06:29:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000543,H69426,2026-07-30 19:17:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000544,H68251,2026-07-07 19:47:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000545,H24576,2026-07-13 10:58:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000546,H82165,2026-06-04 01:53:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000547,H60051,2026-06-11 09:42:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000548,H50994,2026-07-03 10:37:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000549,H03697,2026-07-23 11:46:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000550,H19042,2026-06-11 13:01:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000551,H53422,2026-06-10 13:51:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000552,H95498,2026-07-12 14:27:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000553,H37563,2026-06-23 04:59:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000554,H39240,2026-06-26 10:14:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000555,H13400,2026-07-02 00:04:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000556,H54445,2026-06-07 03:58:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000557,H54445,2026-06-28 21:06:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000558,H89543,2026-07-10 09:45:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000559,H56672,2026-06-11 22:20:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000560,H67530,2026-06-27 01:34:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000561,H26815,2026-07-11 23:07:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000562,H51519,2026-06-29 01:02:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000563,H05663,2026-06-25 05:51:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000564,H52788,2026-07-29 10:40:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000565,H92273,2026-06-30 17:21:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000566,H90422,2026-06-19 09:02:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000567,H52788,2026-07-11 14:05:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000568,H89881,2026-06-22 10:11:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000569,H79506,2026-06-29 11:16:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000570,H26465,2026-06-08 13:24:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000571,H53920,2026-06-27 22:07:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000572,H26465,2026-07-22 16:59:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000573,H56952,2026-07-26 04:01:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000574,H20596,2026-06-21 04:18:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000575,H46762,2026-06-09 06:37:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000576,H39979,2026-07-13 01:02:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000577,H03697,2026-07-05 08:41:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000578,H99798,2026-07-28 19:36:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000579,H19455,2026-06-21 02:46:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000580,H41821,2026-06-22 19:53:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000581,H53338,2026-07-17 20:56:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000582,H75334,2026-06-12 16:00:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000583,H97835,2026-07-08 07:54:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000584,H03697,2026-07-04 08:14:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000585,H29061,2026-07-23 11:44:00,I received an OTP I never requested and then my balance dropped.,account_takeover
+TCK000586,H59020,2026-07-07 19:11:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000587,H58781,2026-07-10 03:04:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000588,H14210,2026-06-14 00:38:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000589,H32599,2026-06-03 14:27:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000590,H91740,2026-06-12 04:54:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000591,H24610,2026-07-23 17:58:00,I received an OTP I never requested and then my balance dropped.,account_takeover
+TCK000592,H33330,2026-06-12 11:26:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000593,H74464,2026-07-25 23:50:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000594,H26050,2026-06-09 17:35:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000595,H20495,2026-07-09 12:46:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000596,H69049,2026-06-15 17:35:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000597,H34228,2026-07-13 23:25:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000598,H98507,2026-07-21 15:23:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000599,H06933,2026-06-06 20:11:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000600,H76049,2026-07-08 01:23:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000601,H55070,2026-07-20 03:56:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000602,H26556,2026-07-10 06:00:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000603,H40822,2026-07-29 16:57:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000604,H02746,2026-07-30 14:50:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000605,H27368,2026-06-08 20:02:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000606,H79506,2026-06-15 10:00:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000607,H85506,2026-06-22 06:49:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000608,H00023,2026-06-10 04:46:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000609,H66085,2026-06-19 10:27:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000610,H25262,2026-06-24 16:17:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000611,H72201,2026-06-16 10:14:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000612,H41130,2026-07-06 11:04:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000613,H36688,2026-06-06 00:44:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000614,H20854,2026-06-21 10:45:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000615,H35993,2026-06-16 14:40:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000616,H72509,2026-06-11 14:35:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000617,H42658,2026-07-24 22:15:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000618,H43755,2026-07-24 00:36:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000619,H24467,2026-07-27 04:20:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000620,H59020,2026-06-06 08:35:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000621,H02666,2026-06-12 01:31:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000622,H37563,2026-06-15 08:24:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000623,H01758,2026-07-13 00:13:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000624,H78933,2026-06-13 03:10:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000625,H73806,2026-07-18 10:12:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000626,H88776,2026-07-23 19:48:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000627,H26465,2026-07-14 00:39:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000628,H01592,2026-06-20 03:59:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000629,H81998,2026-07-05 22:15:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000630,H43755,2026-07-23 02:36:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000631,H86291,2026-07-06 11:41:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000632,H56336,2026-06-22 16:12:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000633,H81042,2026-07-14 23:20:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000634,H92997,2026-07-06 09:14:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000635,H15100,2026-07-23 05:35:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000636,H06824,2026-06-16 12:41:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000637,H60476,2026-06-23 23:04:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000638,H54524,2026-07-20 01:49:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000639,H94335,2026-06-06 14:16:00,My SIM card stopped working and now money is missing from my wallet.,account_takeover
+TCK000640,H61570,2026-06-25 10:51:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000641,H10605,2026-06-04 14:02:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000642,H74365,2026-07-12 19:34:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000643,H08754,2026-06-16 03:23:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000644,H81905,2026-07-17 07:51:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000645,H01276,2026-07-19 10:07:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000646,H77024,2026-06-24 00:01:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000647,H75910,2026-06-04 08:20:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000648,H64342,2026-06-07 04:20:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000649,H80556,2026-06-12 13:01:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000650,H20035,2026-07-14 12:38:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000651,H36441,2026-06-24 07:28:00,Someone changed my PIN and I can no longer log in to my account.,account_takeover
+TCK000652,H27936,2026-07-09 05:46:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000653,H78311,2026-06-23 02:40:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000654,H22005,2026-06-15 23:14:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000655,H76158,2026-07-28 01:46:00,Someone changed my PIN and I can no longer log in to my account.,account_takeover
+TCK000656,H30498,2026-07-11 06:46:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000657,H65329,2026-07-06 20:14:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000658,H34223,2026-07-14 02:49:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000659,H96284,2026-07-12 16:03:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000660,H84284,2026-06-15 23:33:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000661,H98364,2026-06-01 13:44:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000662,H89179,2026-06-26 20:54:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000663,H04171,2026-06-16 01:40:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000664,H21584,2026-07-16 14:33:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000665,H24948,2026-06-09 16:50:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000666,H04002,2026-07-15 11:02:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000667,H90794,2026-06-19 10:15:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000668,H37012,2026-06-16 18:46:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000669,H81408,2026-06-18 07:45:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000670,H48329,2026-07-08 12:28:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000671,H37368,2026-07-11 18:41:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000672,H82165,2026-06-30 07:10:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000673,H29658,2026-06-14 19:52:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000674,H58368,2026-06-28 13:47:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000675,H52154,2026-07-01 18:56:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000676,H59155,2026-07-17 15:53:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000677,H60476,2026-06-17 18:23:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000678,H45849,2026-06-22 14:52:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000679,H58971,2026-06-10 02:20:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000680,H37750,2026-07-18 21:22:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000681,H43427,2026-07-29 08:40:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000682,H44960,2026-07-21 21:44:00,Someone changed my PIN and I can no longer log in to my account.,account_takeover
+TCK000683,H89803,2026-06-18 02:33:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000684,H49993,2026-06-11 22:55:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000685,H17872,2026-07-23 13:06:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000686,H77024,2026-06-12 19:26:00,I received an OTP I never requested and then my balance dropped.,account_takeover
+TCK000687,H39106,2026-06-08 05:38:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000688,H89334,2026-07-13 07:18:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000689,H56672,2026-06-15 18:09:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000690,H28991,2026-06-17 17:22:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000691,H39141,2026-07-20 06:52:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000692,H17276,2026-06-13 11:30:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000693,H29771,2026-06-01 18:27:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000694,H05172,2026-07-20 23:08:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000695,H68251,2026-06-15 07:16:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000696,H36893,2026-06-19 05:41:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000697,H77879,2026-07-14 17:31:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000698,H10332,2026-06-02 17:50:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000699,H00184,2026-07-30 02:58:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000700,H11289,2026-07-24 20:08:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000701,H48398,2026-07-21 10:42:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000702,H24767,2026-06-21 16:34:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000703,H47727,2026-07-27 08:58:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000704,H86740,2026-06-12 00:14:00,I received an OTP I never requested and then my balance dropped.,account_takeover
+TCK000705,H40740,2026-07-23 12:37:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000706,H47516,2026-07-10 12:34:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000707,H20073,2026-07-14 19:48:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000708,H44225,2026-07-24 04:46:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000709,H82615,2026-07-30 07:42:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000710,H90564,2026-06-30 23:48:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000711,H75993,2026-06-29 14:58:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000712,H20299,2026-07-10 08:56:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000713,H91714,2026-07-26 14:13:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000714,H52842,2026-06-11 07:30:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000715,H37508,2026-06-05 13:24:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000716,H69328,2026-06-02 15:41:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000717,H49993,2026-07-14 12:00:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000718,H43113,2026-06-30 13:08:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000719,H01156,2026-07-04 10:30:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000720,H36893,2026-07-22 15:46:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000721,H73918,2026-07-24 23:19:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000722,H81283,2026-07-13 10:16:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000723,H12773,2026-06-04 04:25:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000724,H45496,2026-06-28 12:04:00,My SIM card stopped working and now money is missing from my wallet.,account_takeover
+TCK000725,H55118,2026-07-19 22:10:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000726,H13381,2026-06-20 18:04:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000727,H07796,2026-06-03 04:25:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000728,H60839,2026-07-22 08:16:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000729,H17258,2026-07-07 09:08:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000730,H27986,2026-06-12 14:06:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000731,H29210,2026-06-20 19:48:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000732,H61042,2026-07-10 06:56:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000733,H91589,2026-06-15 04:57:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000734,H65405,2026-06-20 22:10:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000735,H52010,2026-06-09 12:35:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000736,H68025,2026-07-28 01:46:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000737,H58971,2026-07-30 22:04:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000738,H25262,2026-07-22 03:01:00,I received an OTP I never requested and then my balance dropped.,account_takeover
+TCK000739,H95777,2026-07-02 15:13:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000740,H67941,2026-07-04 15:41:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000741,H24238,2026-06-19 23:56:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000742,H84284,2026-06-20 08:54:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000743,H14210,2026-06-23 18:26:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000744,H56874,2026-06-04 11:27:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000745,H42724,2026-07-06 05:07:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000746,H87190,2026-06-01 14:11:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000747,H26392,2026-07-24 10:54:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000748,H44808,2026-07-16 17:17:00,"I did not make this transfer, someone accessed my account without permission.",account_takeover
+TCK000749,H41011,2026-07-20 00:42:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000750,H09794,2026-06-09 14:56:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000751,H90071,2026-07-22 08:01:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000752,H10332,2026-07-05 13:03:00,My SIM card stopped working and now money is missing from my wallet.,account_takeover
+TCK000753,H35213,2026-07-24 10:47:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000754,H59769,2026-07-15 20:14:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000755,H17276,2026-07-12 14:19:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000756,H75910,2026-07-27 04:02:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000757,H39894,2026-07-29 22:10:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000758,H96284,2026-06-02 01:44:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000759,H99673,2026-07-13 19:54:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000760,H00184,2026-06-30 14:12:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000761,H36558,2026-07-23 20:03:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000762,H19691,2026-07-23 03:56:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000763,H48325,2026-06-01 16:04:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000764,H44497,2026-06-05 02:59:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000765,H56927,2026-07-09 18:34:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000766,H37671,2026-07-26 02:58:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000767,H24833,2026-07-07 01:04:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000768,H04242,2026-07-26 23:11:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000769,H75928,2026-07-15 11:57:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000770,H20299,2026-06-17 23:27:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000771,H58932,2026-07-23 08:11:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000772,H16997,2026-06-25 06:53:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000773,H78933,2026-07-12 10:16:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000774,H76158,2026-06-03 01:52:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000775,H42724,2026-06-11 12:01:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000776,H13577,2026-07-15 16:34:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000777,H95855,2026-07-09 21:13:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000778,H17872,2026-07-10 16:11:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000779,H48329,2026-07-22 20:29:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000780,H39894,2026-07-26 21:08:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000781,H67717,2026-06-01 17:39:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000782,H37109,2026-06-09 18:15:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000783,H64710,2026-06-21 10:36:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000784,H11763,2026-07-29 06:14:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000785,H42566,2026-06-29 19:40:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000786,H22672,2026-06-23 13:55:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000787,H53196,2026-06-25 22:30:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000788,H85506,2026-06-14 02:59:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000789,H36605,2026-07-17 05:44:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000790,H05236,2026-07-03 17:04:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000791,H66085,2026-06-18 23:18:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000792,H79866,2026-06-14 09:54:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000793,H82615,2026-07-21 13:37:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000794,H46395,2026-06-20 05:03:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000795,H29435,2026-07-28 05:47:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000796,H28991,2026-07-15 05:31:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000797,H15853,2026-06-07 19:13:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000798,H65405,2026-06-07 20:28:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000799,H81954,2026-06-19 23:04:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000800,H26381,2026-06-21 15:43:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000801,H38437,2026-07-08 13:59:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000802,H64781,2026-07-18 05:58:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000803,H84791,2026-07-30 06:53:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000804,H13577,2026-07-14 21:11:00,"I did not make this transfer, someone accessed my account without permission.",account_takeover
+TCK000805,H36833,2026-07-24 08:24:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000806,H63352,2026-06-08 13:18:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000807,H23305,2026-06-06 12:25:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000808,H82483,2026-07-05 08:16:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000809,H94335,2026-06-20 13:28:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000810,H46118,2026-07-29 04:37:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000811,H12773,2026-06-11 19:58:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000812,H78311,2026-06-06 02:46:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000813,H16386,2026-07-07 00:07:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000814,H22672,2026-06-03 22:43:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000815,H20854,2026-06-03 11:14:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000816,H43755,2026-06-06 00:26:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000817,H10466,2026-07-15 08:36:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000818,H53920,2026-07-19 17:06:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000819,H34525,2026-07-02 17:33:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000820,H18151,2026-07-10 17:38:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000821,H06310,2026-07-01 11:49:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000822,H19727,2026-06-24 07:08:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000823,H01592,2026-07-24 23:18:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000824,H28150,2026-07-06 12:50:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000825,H80763,2026-06-29 00:21:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000826,H03697,2026-07-07 10:55:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000827,H10605,2026-06-25 07:48:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000828,H65188,2026-07-13 14:02:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000829,H47727,2026-07-10 20:19:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000830,H63882,2026-06-15 10:56:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000831,H34238,2026-07-01 22:25:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000832,H41821,2026-06-28 15:54:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000833,H81395,2026-07-21 12:28:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000834,H16405,2026-06-12 09:34:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000835,H20390,2026-07-06 10:50:00,"I did not make this transfer, someone accessed my account without permission.",account_takeover
+TCK000836,H14396,2026-06-01 04:03:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000837,H79811,2026-06-18 05:11:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000838,H68304,2026-07-10 13:14:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000839,H48584,2026-06-16 21:14:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000840,H04171,2026-07-11 11:44:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000841,H04689,2026-07-28 10:17:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000842,H84582,2026-07-01 16:14:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000843,H81042,2026-07-13 11:40:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000844,H02666,2026-07-07 12:08:00,Someone changed my PIN and I can no longer log in to my account.,account_takeover
+TCK000845,H20300,2026-07-27 04:46:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000846,H27750,2026-07-01 11:20:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000847,H57522,2026-06-18 15:17:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000848,H63020,2026-07-27 17:11:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000849,H87517,2026-07-13 23:58:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000850,H45587,2026-07-07 08:00:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000851,H10832,2026-06-28 09:55:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000852,H77024,2026-07-16 09:30:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000853,H77274,2026-07-29 12:22:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000854,H84003,2026-06-09 08:22:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000855,H13188,2026-07-26 11:27:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000856,H31747,2026-06-04 01:15:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000857,H12257,2026-06-22 19:17:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000858,H00134,2026-06-19 19:02:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000859,H71840,2026-07-24 03:49:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000860,H14582,2026-06-10 13:17:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000861,H56895,2026-07-16 08:59:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000862,H63287,2026-06-25 02:40:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000863,H91597,2026-06-30 00:50:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000864,H68656,2026-07-24 17:12:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000865,H26465,2026-06-30 06:04:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000866,H00184,2026-06-20 03:08:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000867,H55312,2026-06-09 13:16:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000868,H74464,2026-07-29 16:48:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000869,H03002,2026-06-13 01:42:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000870,H19691,2026-07-07 23:00:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000871,H48438,2026-07-17 07:51:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000872,H31950,2026-06-12 05:51:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000873,H01480,2026-06-28 07:13:00,Someone changed my PIN and I can no longer log in to my account.,account_takeover
+TCK000874,H04149,2026-07-09 14:11:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000875,H43113,2026-07-23 16:47:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000876,H76309,2026-06-04 18:08:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000877,H39640,2026-07-23 07:08:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000878,H00463,2026-07-09 10:25:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000879,H84502,2026-07-01 22:36:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000880,H20099,2026-07-18 23:03:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000881,H89179,2026-06-21 08:22:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000882,H37528,2026-06-30 18:10:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000883,H70394,2026-06-30 02:34:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000884,H26392,2026-06-02 12:50:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000885,H56807,2026-06-22 00:56:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000886,H53614,2026-07-08 05:56:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000887,H23225,2026-07-11 00:28:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000888,H70977,2026-06-11 03:24:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000889,H49617,2026-06-15 02:22:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000890,H48325,2026-07-26 01:05:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000891,H17514,2026-07-29 18:33:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000892,H58548,2026-07-09 23:57:00,I received an OTP I never requested and then my balance dropped.,account_takeover
+TCK000893,H27750,2026-06-11 09:18:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000894,H29063,2026-07-18 16:43:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000895,H12233,2026-06-16 03:29:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000896,H94939,2026-07-10 01:04:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000897,H84003,2026-07-11 00:57:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000898,H45849,2026-07-21 17:03:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000899,H97027,2026-06-30 12:28:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000900,H05984,2026-07-26 12:14:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000901,H44960,2026-07-10 21:37:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000902,H34223,2026-06-27 18:38:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000903,H59097,2026-07-11 12:16:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000904,H37563,2026-06-13 08:43:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000905,H81640,2026-07-19 15:17:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000906,H17020,2026-06-04 04:42:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000907,H44065,2026-06-22 01:57:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000908,H41011,2026-07-19 02:49:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000909,H79866,2026-06-01 22:54:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000910,H76509,2026-06-05 00:47:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000911,H65329,2026-07-27 03:08:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000912,H21942,2026-06-18 11:35:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000913,H01156,2026-07-13 10:32:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000914,H40740,2026-06-08 06:51:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000915,H69600,2026-07-05 06:35:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000916,H47225,2026-06-28 02:10:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000917,H22672,2026-06-22 15:30:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000918,H80763,2026-07-09 03:32:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000919,H46604,2026-07-08 08:09:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000920,H63287,2026-07-14 12:39:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000921,H93280,2026-06-01 20:49:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000922,H81706,2026-06-02 17:40:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000923,H28991,2026-06-01 21:19:00,I received an OTP I never requested and then my balance dropped.,account_takeover
+TCK000924,H25844,2026-06-18 22:30:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000925,H94335,2026-07-19 12:01:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000926,H02414,2026-07-04 13:20:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000927,H39106,2026-07-09 05:45:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000928,H68066,2026-07-20 06:17:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000929,H65094,2026-06-10 15:07:00,"I did not make this transfer, someone accessed my account without permission.",account_takeover
+TCK000930,H95498,2026-07-14 06:43:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000931,H30583,2026-07-04 02:57:00,Someone changed my PIN and I can no longer log in to my account.,account_takeover
+TCK000932,H39832,2026-06-01 09:42:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000933,H01092,2026-06-11 14:07:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000934,H42658,2026-07-03 12:34:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000935,H36285,2026-06-13 16:25:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000936,H12233,2026-06-09 17:08:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000937,H56807,2026-06-11 07:06:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000938,H19855,2026-06-20 20:30:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000939,H53293,2026-06-24 08:44:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000940,H68066,2026-06-06 22:12:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000941,H36833,2026-06-02 20:45:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000942,H34525,2026-07-10 07:00:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000943,H48329,2026-07-13 08:54:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000944,H59019,2026-06-26 03:44:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000945,H84939,2026-07-21 02:38:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000946,H59425,2026-06-13 20:00:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000947,H79062,2026-07-01 23:33:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000948,H75751,2026-06-30 09:17:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000949,H02972,2026-07-19 00:18:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000950,H94335,2026-07-04 15:34:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000951,H61481,2026-07-14 11:20:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000952,H73918,2026-07-19 16:18:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000953,H61823,2026-07-12 20:00:00,My SIM card stopped working and now money is missing from my wallet.,account_takeover
+TCK000954,H47990,2026-07-07 09:29:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000955,H98507,2026-07-17 05:58:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000956,H29210,2026-07-13 18:42:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000957,H36009,2026-06-21 01:10:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000958,H77879,2026-06-06 09:44:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000959,H35416,2026-07-24 21:46:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000960,H54524,2026-06-08 10:31:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000961,H95988,2026-06-21 03:44:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000962,H20696,2026-06-23 11:36:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000963,H14582,2026-06-11 04:59:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000964,H91589,2026-06-08 01:44:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000965,H34494,2026-07-11 03:46:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000966,H08206,2026-06-19 15:17:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000967,H16927,2026-06-30 00:18:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000968,H42724,2026-07-07 15:01:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000969,H17239,2026-06-10 00:44:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000970,H91597,2026-07-18 20:36:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000971,H57575,2026-06-19 21:08:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000972,H64771,2026-07-03 23:10:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000973,H01105,2026-06-05 17:09:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000974,H57459,2026-06-04 02:35:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000975,H17020,2026-06-27 05:17:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000976,H43733,2026-06-05 21:26:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000977,H86398,2026-06-19 09:39:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000978,H71005,2026-06-30 13:26:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000979,H02972,2026-06-14 13:27:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000980,H18187,2026-07-18 13:43:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000981,H66299,2026-07-08 21:39:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000982,H30786,2026-06-25 02:27:00,Someone changed my PIN and I can no longer log in to my account.,account_takeover
+TCK000983,H11540,2026-06-29 20:40:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK000984,H48329,2026-06-15 10:23:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000985,H17100,2026-06-19 13:10:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000986,H38332,2026-07-22 08:38:00,"I did not make this transfer, someone accessed my account without permission.",account_takeover
+TCK000987,H37942,2026-06-10 19:03:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK000988,H37692,2026-07-29 13:18:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000989,H34108,2026-06-08 16:37:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000990,H98936,2026-07-19 03:54:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK000991,H08521,2026-07-22 19:50:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK000992,H45849,2026-07-06 23:10:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK000993,H36009,2026-06-26 05:22:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000994,H71480,2026-07-08 19:50:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK000995,H16128,2026-06-21 19:01:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK000996,H30498,2026-06-14 03:00:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK000997,H40740,2026-07-05 10:52:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK000998,H73422,2026-06-27 06:49:00,"I did not make this transfer, someone accessed my account without permission.",account_takeover
+TCK000999,H47990,2026-06-06 20:47:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK001000,H15853,2026-06-12 15:51:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK001001,H42038,2026-06-18 03:50:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK001002,H92161,2026-07-03 07:43:00,Someone changed my PIN and I can no longer log in to my account.,account_takeover
+TCK001003,H33368,2026-06-11 21:54:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK001004,H69426,2026-07-10 03:47:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK001005,H92273,2026-06-29 02:25:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK001006,H87517,2026-07-10 12:42:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK001007,H34238,2026-06-16 18:57:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK001008,H09900,2026-07-22 20:24:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK001009,H77755,2026-06-06 07:36:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK001010,H79719,2026-06-03 07:13:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK001011,H80496,2026-07-13 14:46:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK001012,H41880,2026-06-24 17:01:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK001013,H16968,2026-06-01 08:29:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK001014,H37368,2026-07-02 23:22:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK001015,H53196,2026-07-26 03:38:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK001016,H34223,2026-06-21 03:45:00,I received an OTP I never requested and then my balance dropped.,account_takeover
+TCK001017,H37137,2026-06-27 02:13:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK001018,H29435,2026-06-02 23:51:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK001019,H59019,2026-07-21 08:43:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK001020,H44065,2026-06-30 16:44:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK001021,H34047,2026-06-14 00:44:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK001022,H67375,2026-06-29 20:24:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK001023,H59155,2026-07-10 19:48:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK001024,H65188,2026-06-17 06:22:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK001025,H79506,2026-06-06 14:51:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK001026,H66703,2026-06-07 22:12:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK001027,H39141,2026-07-14 01:03:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK001028,H93991,2026-06-17 22:16:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK001029,H58548,2026-06-13 04:06:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK001030,H64771,2026-06-30 06:06:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK001031,H92952,2026-07-11 16:20:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK001032,H63020,2026-06-11 13:54:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK001033,H47404,2026-06-30 17:50:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK001034,H77755,2026-07-27 13:59:00,Someone changed my PIN and I can no longer log in to my account.,account_takeover
+TCK001035,H29064,2026-07-15 10:41:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK001036,H62217,2026-06-18 13:02:00,Someone changed my PIN and I can no longer log in to my account.,account_takeover
+TCK001037,H73918,2026-07-27 21:33:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK001038,H30178,2026-06-26 01:56:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK001039,H18151,2026-06-02 02:26:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK001040,H82483,2026-07-04 08:27:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK001041,H87990,2026-06-29 21:58:00,My SIM card stopped working and now money is missing from my wallet.,account_takeover
+TCK001042,H42396,2026-07-10 16:44:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK001043,H05252,2026-06-05 09:04:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK001044,H06310,2026-06-14 04:12:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK001045,H55590,2026-06-22 02:12:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK001046,H76049,2026-07-08 01:47:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK001047,H36605,2026-07-13 15:18:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK001048,H89433,2026-06-04 07:20:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK001049,H13880,2026-07-18 09:02:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK001050,H87190,2026-07-01 06:00:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK001051,H48325,2026-07-04 07:48:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK001052,H04954,2026-07-29 01:24:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK001053,H67301,2026-07-02 07:01:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK001054,H37942,2026-06-30 08:24:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK001055,H79685,2026-07-22 04:48:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK001056,H71840,2026-06-07 18:19:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK001057,H51519,2026-06-05 18:40:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK001058,H65664,2026-07-01 21:01:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK001059,H89369,2026-06-02 02:19:00,Someone changed my PIN and I can no longer log in to my account.,account_takeover
+TCK001060,H60051,2026-07-29 07:26:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK001061,H72012,2026-06-08 18:37:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK001062,H39640,2026-07-28 16:55:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK001063,H25120,2026-06-30 10:35:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK001064,H09430,2026-07-27 18:36:00,Someone changed my PIN and I can no longer log in to my account.,account_takeover
+TCK001065,H58548,2026-07-14 23:35:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK001066,H26815,2026-06-04 20:55:00,"I did not make this transfer, someone accessed my account without permission.",account_takeover
+TCK001067,H55305,2026-07-22 11:23:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK001068,H30786,2026-06-10 13:07:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK001069,H58548,2026-06-26 17:38:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK001070,H13880,2026-07-03 04:17:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK001071,H36655,2026-06-15 23:57:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK001072,H94071,2026-07-11 11:58:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK001073,H53005,2026-07-28 19:09:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK001074,H34108,2026-06-20 22:26:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK001075,H68251,2026-06-10 09:20:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK001076,H55118,2026-06-06 10:59:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK001077,H67598,2026-07-02 00:59:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK001078,H58056,2026-07-12 00:58:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK001079,H59019,2026-06-08 14:21:00,My SIM card stopped working and now money is missing from my wallet.,account_takeover
+TCK001080,H20035,2026-07-11 00:26:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK001081,H13872,2026-07-15 21:35:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK001082,H04642,2026-06-30 06:02:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK001083,H01092,2026-06-29 09:20:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK001084,H14780,2026-06-30 07:27:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK001085,H01797,2026-06-29 23:11:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK001086,H96386,2026-07-08 02:15:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK001087,H87569,2026-07-28 04:38:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK001088,H07888,2026-06-28 02:01:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK001089,H95988,2026-06-01 04:10:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK001090,H92303,2026-06-30 12:40:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK001091,H48438,2026-06-15 21:31:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK001092,H67941,2026-06-10 05:06:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK001093,H55305,2026-07-28 13:54:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK001094,H31239,2026-06-18 23:10:00,I received an OTP I never requested and then my balance dropped.,account_takeover
+TCK001095,H15853,2026-07-03 00:34:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK001096,H02975,2026-07-25 16:02:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK001097,H73918,2026-06-17 16:20:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK001098,H26556,2026-06-16 17:32:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK001099,H25262,2026-06-01 12:57:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK001100,H80556,2026-07-02 01:59:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK001101,H53196,2026-06-05 15:57:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK001102,H29580,2026-07-03 02:40:00,My SIM card stopped working and now money is missing from my wallet.,account_takeover
+TCK001103,H01797,2026-06-15 04:43:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK001104,H07608,2026-06-27 19:48:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK001105,H34228,2026-07-09 03:40:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK001106,H34108,2026-07-29 06:17:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK001107,H77763,2026-07-26 05:32:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK001108,H82165,2026-06-09 13:43:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK001109,H27034,2026-07-26 03:14:00,"I did not make this transfer, someone accessed my account without permission.",account_takeover
+TCK001110,H33997,2026-07-06 23:38:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK001111,H89369,2026-07-05 18:55:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK001112,H63352,2026-06-10 20:06:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK001113,H27936,2026-06-23 10:13:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK001114,H60476,2026-07-27 10:46:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK001115,H99337,2026-07-11 02:01:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK001116,H95142,2026-07-19 21:07:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK001117,H79062,2026-06-17 21:02:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK001118,H31744,2026-06-03 02:22:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK001119,H57177,2026-07-02 02:38:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK001120,H15236,2026-07-27 07:07:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK001121,H06144,2026-07-11 06:07:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK001122,H77720,2026-06-22 14:11:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK001123,H94335,2026-07-24 12:40:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK001124,H95498,2026-07-18 09:10:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK001125,H50760,2026-06-12 12:14:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK001126,H29061,2026-07-07 22:58:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK001127,H33743,2026-06-11 06:42:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK001128,H74146,2026-06-29 03:21:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK001129,H98394,2026-06-14 21:44:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK001130,H65188,2026-06-11 10:13:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK001131,H85506,2026-07-25 07:19:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK001132,H13880,2026-07-10 15:35:00,"I did not make this transfer, someone accessed my account without permission.",account_takeover
+TCK001133,H24948,2026-06-14 15:13:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK001134,H16166,2026-06-21 06:06:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK001135,H66342,2026-06-27 10:26:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK001136,H66628,2026-07-30 20:55:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK001137,H95142,2026-06-10 08:12:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK001138,H13574,2026-06-10 20:22:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK001139,H47990,2026-06-17 16:41:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK001140,H69446,2026-07-26 08:31:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK001141,H75334,2026-06-09 00:23:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK001142,H68025,2026-07-06 18:15:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK001143,H58548,2026-07-26 11:45:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK001144,H77751,2026-06-27 06:02:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK001145,H00978,2026-07-03 00:01:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK001146,H38073,2026-07-25 10:18:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK001147,H37012,2026-06-16 01:28:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK001148,H99530,2026-06-30 23:45:00,My SIM card stopped working and now money is missing from my wallet.,account_takeover
+TCK001149,H19042,2026-07-08 15:42:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK001150,H29701,2026-07-30 10:44:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK001151,H47990,2026-06-04 15:28:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK001152,H52010,2026-06-22 09:36:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK001153,H71005,2026-07-22 00:04:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK001154,H00184,2026-06-21 17:48:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK001155,H80537,2026-06-06 07:31:00,I received an OTP I never requested and then my balance dropped.,account_takeover
+TCK001156,H72509,2026-07-23 00:51:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK001157,H37563,2026-07-03 12:32:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK001158,H76294,2026-07-19 18:27:00,"I did not make this transfer, someone accessed my account without permission.",account_takeover
+TCK001159,H18187,2026-06-17 23:36:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK001160,H52154,2026-07-28 01:18:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK001161,H06252,2026-07-14 12:34:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK001162,H48325,2026-06-05 07:46:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK001163,H46118,2026-06-06 07:50:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK001164,H93870,2026-06-01 04:07:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK001165,H69719,2026-07-24 20:55:00,Someone changed my PIN and I can no longer log in to my account.,account_takeover
+TCK001166,H14582,2026-07-08 17:59:00,I received an OTP I never requested and then my balance dropped.,account_takeover
+TCK001167,H33865,2026-07-29 08:41:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK001168,H98936,2026-06-27 05:34:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK001169,H33997,2026-07-07 19:20:00,Someone changed my PIN and I can no longer log in to my account.,account_takeover
+TCK001170,H50713,2026-07-14 07:04:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK001171,H68066,2026-07-02 01:46:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK001172,H39012,2026-07-03 23:34:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK001173,H91291,2026-06-06 21:22:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK001174,H31763,2026-07-14 09:48:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK001175,H75294,2026-07-13 08:34:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK001176,H77024,2026-06-29 19:53:00,"I cannot complete a cash-out at the agent, the app freezes on confirmation.",technical_issue
+TCK001177,H57522,2026-07-14 07:18:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK001178,H82313,2026-06-04 06:36:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK001179,H08681,2026-07-25 01:26:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK001180,H42724,2026-06-16 07:35:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK001181,H53422,2026-07-28 18:59:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK001182,H87569,2026-07-19 00:30:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK001183,H96197,2026-06-08 23:08:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK001184,H24833,2026-07-13 22:09:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK001185,H67091,2026-07-16 23:19:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK001186,H03552,2026-06-12 10:24:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK001187,H69165,2026-07-17 02:19:00,The app keeps crashing when I try to send money to a contact.,technical_issue
+TCK001188,H49617,2026-06-26 21:11:00,USSD menu is not loading for me since this morning.,technical_issue
+TCK001189,H57801,2026-06-15 05:43:00,Can you explain the daily transfer limit on my account tier?,general_inquiry
+TCK001190,H29580,2026-07-28 17:23:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK001191,H76158,2026-07-13 22:10:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK001192,H85901,2026-06-04 20:39:00,"The transaction fee on my transfer looks higher than usual, please review.",billing_dispute
+TCK001193,H18825,2026-07-27 07:35:00,I received an OTP I never requested and then my balance dropped.,account_takeover
+TCK001194,H10832,2026-07-25 18:43:00,Someone changed my PIN and I can no longer log in to my account.,account_takeover
+TCK001195,H38200,2026-07-08 11:13:00,What documents do I need to upgrade my account tier?,general_inquiry
+TCK001196,H20696,2026-07-28 17:40:00,I was billed for a bill payment that never went through.,billing_dispute
+TCK001197,H91322,2026-06-09 16:29:00,How long does a merchant payment normally take to reflect?,general_inquiry
+TCK001198,H13872,2026-06-04 00:40:00,I was charged twice for the same merchant payment this week.,billing_dispute
+TCK001199,H10391,2026-06-08 17:54:00,What documents do I need to upgrade my account tier?,general_inquiry

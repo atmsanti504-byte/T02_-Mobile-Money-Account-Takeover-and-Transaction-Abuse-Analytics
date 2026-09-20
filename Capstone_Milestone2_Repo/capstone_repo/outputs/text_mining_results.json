@@ -1,0 +1,55 @@
+{
+  "macro_f1": 1.0,
+  "per_class_f1": {
+    "account_takeover": 1.0,
+    "billing_dispute": 1.0,
+    "general_inquiry": 1.0,
+    "technical_issue": 1.0
+  },
+  "n_train": 900,
+  "n_test": 300,
+  "n_tickets_flagged_by_keywords": 108,
+  "sample_indicator_extractions": [
+    {
+      "ticket_id": "TCK000013",
+      "category": "account_takeover",
+      "keyword_hits": [
+        "otp"
+      ]
+    },
+    {
+      "ticket_id": "TCK000018",
+      "category": "account_takeover",
+      "keyword_hits": [
+        "did not make",
+        "without permission",
+        "access"
+      ]
+    },
+    {
+      "ticket_id": "TCK000054",
+      "category": "account_takeover",
+      "keyword_hits": [
+        "did not make",
+        "without permission",
+        "access"
+      ]
+    },
+    {
+      "ticket_id": "TCK000061",
+      "category": "account_takeover",
+      "keyword_hits": [
+        "pin",
+        "changed my"
+      ]
+    },
+    {
+      "ticket_id": "TCK000062",
+      "category": "account_takeover",
+      "keyword_hits": [
+        "pin",
+        "changed my"
+      ]
+    }
+  ]
+}

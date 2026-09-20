@@ -1,0 +1,8 @@
+[quality-check] auth: 12000 rows -> 12000 after de-dup (0 duplicates removed); 0 null cells found.
+[quality-check] transactions: 9000 rows -> 9000 after de-dup (0 duplicates removed); 0 null cells found.
+[quality-check] device: 1500 rows -> 1500 after de-dup (0 duplicates removed); 0 null cells found.
+[quality-check] tickets: 1200 rows -> 1200 after de-dup (0 duplicates removed); 0 null cells found.
+[quality-check] transactions: removed 0 non-positive amount rows.
+[features] built account-level feature table: 800 accounts x 15 columns
+[features] positive label rate: 0.060
+[charts] saved 3 baseline charts to outputs/

@@ -1,0 +1,37 @@
+[
+  {
+    "id": "ADV-1",
+    "name": "Low-and-slow SIM swap",
+    "description": "Attacker spaces out SIM change, login and cash-out over several days instead of minutes, to avoid velocity-based features.",
+    "status": "planned",
+    "expected_risk": "Detection recall likely drops; mitigation is a longer rolling-window feature."
+  },
+  {
+    "id": "ADV-2",
+    "name": "MFA-present takeover",
+    "description": "Attacker completes MFA (e.g., via SIM-swap-enabled OTP interception), removing the low-MFA signal the current model relies on heavily.",
+    "status": "planned",
+    "expected_risk": "Supervised model may under-score; anomaly model (geo/device) should partially compensate."
+  },
+  {
+    "id": "ADV-3",
+    "name": "Small-amount test transactions",
+    "description": "Attacker makes several small transactions to test account access before a large cash-out, to stay under amount-based thresholds.",
+    "status": "planned",
+    "expected_risk": "Amount-based features alone insufficient; needs transaction-sequence features."
+  },
+  {
+    "id": "ADV-4",
+    "name": "Mimicked legitimate travel",
+    "description": "Attacker spoofs a gradual, realistic geolocation drift to resemble the legitimate-travel negative-control scenario (Section: Simulation).",
+    "status": "planned",
+    "expected_risk": "Directly probes the false-positive/false-negative boundary found in the legit_travel simulation; priority test for next milestone."
+  },
+  {
+    "id": "ADV-5",
+    "name": "Feature-masking via device spoofing",
+    "description": "Attacker uses a device fingerprint resembling the victim's usual device, suppressing the device/SIM-change signal.",
+    "status": "planned",
+    "expected_risk": "Requires device-integrity signals beyond what current synthetic data models."
+  }
+]
