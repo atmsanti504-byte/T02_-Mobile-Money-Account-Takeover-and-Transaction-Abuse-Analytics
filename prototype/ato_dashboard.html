@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>ATO Analytics — Analyst Prototype</title>
+<style>
+  :root{
+    --primary:#1F3864; --accent:#2E5395; --bg:#F4F6FA; --card:#FFFFFF;
+    --border:#E1E5EE; --danger:#C0504D; --warn:#D9A441; --ok:#3F8F5F; --muted:#6B7280;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:#1a1a1a;}
+  header{background:var(--primary);color:#fff;padding:20px 28px;}
+  header h1{margin:0;font-size:20px;font-weight:700;}
+  header p{margin:4px 0 0;font-size:13px;opacity:.85;}
+  .wrap{max-width:1180px;margin:0 auto;padding:22px 28px 60px;}
+  .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:24px;}
+  .stat{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:14px 16px;}
+  .stat .label{font-size:11px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);margin-bottom:6px;}
+  .stat .value{font-size:22px;font-weight:700;color:var(--primary);}
+  .stat .sub{font-size:11px;color:var(--muted);margin-top:4px;}
+  section{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:18px 20px;margin-bottom:20px;}
+  section h2{font-size:15px;margin:0 0 4px;color:var(--primary);}
+  section .desc{font-size:12px;color:var(--muted);margin:0 0 14px;}
+  table{width:100%;border-collapse:collapse;font-size:12px;}
+  th{text-align:left;background:#F0F3FA;color:var(--primary);padding:8px 10px;font-weight:600;border-bottom:1px solid var(--border);}
+  td{padding:7px 10px;border-bottom:1px solid var(--border);vertical-align:middle;}
+  tr:hover td{background:#FAFBFE;}
+  .badge{display:inline-block;padding:2px 8px;border-radius:20px;font-size:11px;font-weight:600;}
+  .badge.high{background:#FCEBEA;color:var(--danger);}
+  .badge.med{background:#FDF3E2;color:var(--warn);}
+  .badge.low{background:#E9F5EC;color:var(--ok);}
+  .bar-bg{background:#E9ECF3;border-radius:4px;height:7px;width:75px;overflow:hidden;display:inline-block;vertical-align:middle;margin-right:4px;}
+  .bar-fill{height:100%;background:var(--accent);}
+  .scenario-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;}
+  .scenario{border:1px solid var(--border);border-radius:8px;padding:12px 14px;}
+  .scenario h3{margin:0 0 6px;font-size:13px;color:var(--primary);}
+  .scenario .rate{font-size:24px;font-weight:700;}
+  .scenario .rate.high{color:var(--danger);}
+  .scenario .rate.mid{color:var(--warn);}
+  .scenario .rate.low{color:var(--ok);}
+  .scenario .note{font-size:11.5px;color:var(--muted);margin-top:6px;}
+  .ticket{border:1px solid var(--border);border-radius:8px;padding:10px 12px;margin-bottom:8px;font-size:12.5px;}
+  .ticket .meta{color:var(--muted);font-size:11px;margin-bottom:4px;}
+  .timeline-wrap{overflow-x:auto;}
+  .timeline td:nth-child(1){text-align:center;font-weight:600;}
+  .timeline .source{font-weight:600;color:var(--accent);}
+  .attack-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;}
+  .attack{border:1px solid var(--border);border-radius:8px;padding:12px 14px;}
+  .attack h3{margin:0 0 7px;font-size:13px;color:var(--primary);}
+  .attack .change{font-size:20px;font-weight:700;color:var(--danger);}
+  .attack .note{font-size:11.5px;color:var(--muted);margin-top:5px;}
+  .footer-note{font-size:11px;color:var(--muted);margin-top:26px;line-height:1.5;}
+  @media(max-width:900px){
+    .grid,.scenario-grid,.attack-grid{grid-template-columns:1fr 1fr;}
+  }
+  @media(max-width:600px){
+    .grid,.scenario-grid,.attack-grid{grid-template-columns:1fr;}
+    .wrap{padding:15px;}
+  }
+</style>
+</head>
+
+<body>
+<header>
+  <h1>Mobile-Money ATO &amp; Abuse Analytics — Analyst Prototype</h1>
+  <p>Milestone 2 preliminary output bundle · synthetic data only · risk scores are decision support, not automated enforcement</p>
+</header>
+
+<div class="wrap">
+
+  <!-- KPI CARDS -->
+  <div class="grid">
+    <div class="stat">
+      <div class="label">Supervised model PR-AUC</div>
+      <div class="value">0.8671</div>
+      <div class="sub">precision 0.5315 · recall 0.9370</div>
+    </div>
+    <div class="stat">
+      <div class="label">Anomaly precision</div>
+      <div class="value">0.2106</div>
+      <div class="sub">Isolation Forest · 5% flagged</div>
+    </div>
+    <div class="stat">
+      <div class="label">Text classifier F1</div>
+      <div class="value">0.7117</div>
+      <div class="sub">precision 0.5525 · recall 1.0000</div>
+    </div>
+    <div class="stat">
+      <div class="label">Simulation scenarios</div>
+      <div class="value">3</div>
+      <div class="sub">1,000 Monte Carlo iterations/scenario</div>
+    </div>
+  </div>
+
+  <!-- CASE QUEUE -->
+  <section>
+    <h2>Top flagged transactions — combined ATO risk</h2>
+    <p class="desc">Ranked using supervised, anomaly and support-ticket intelligence. Analysts would review the highest-risk cases first.</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Transaction</th><th>Account</th><th>Combined risk</th>
+          <th>Supervised</th><th>Anomaly</th><th>NLP</th><th>Risk level</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>TXN_0024714</strong></td><td>NDM_001375</td><td><span class="badge high">Critical</span> 0.948</td><td><span class="bar-bg"><span class="bar-fill" style="width:100%"></span></span>1.00</td><td><span class="bar-bg"><span class="bar-fill" style="width:100%"></span></span>1.00</td><td>0.74</td><td><span class="badge high">Critical</span></td></tr>
+        <tr><td><strong>TXN_0086107</strong></td><td>NDM_004428</td><td><span class="badge high">Critical</span> 0.948</td><td><span class="bar-bg"><span class="bar-fill" style="width:100%"></span></span>1.00</td><td><span class="bar-bg"><span class="bar-fill" style="width:100%"></span></span>1.00</td><td>0.74</td><td><span class="badge high">Critical</span></td></tr>
+        <tr><td><strong>TXN_0045916</strong></td><td>NDM_002401</td><td><span class="badge high">Critical</span> 0.948</td><td><span class="bar-bg"><span class="bar-fill" style="width:100%"></span></span>1.00</td><td><span class="bar-bg"><span class="bar-fill" style="width:100%"></span></span>1.00</td><td>0.74</td><td><span class="badge high">Critical</span></td></tr>
+        <tr><td><strong>TXN_0090536</strong></td><td>NDM_000230</td><td><span class="badge high">Critical</span> 0.948</td><td><span class="bar-bg"><span class="bar-fill" style="width:100%"></span></span>1.00</td><td><span class="bar-bg"><span class="bar-fill" style="width:100%"></span></span>1.00</td><td>0.74</td><td><span class="badge high">Critical</span></td></tr>
+        <tr><td><strong>TXN_0008781</strong></td><td>NDM_002122</td><td><span class="badge high">Critical</span> 0.948</td><td><span class="bar-bg"><span class="bar-fill" style="width:100%"></span></span>1.00</td><td><span class="bar-bg"><span class="bar-fill" style="width:99%"></span></span>1.00</td><td>0.74</td><td><span class="badge high">Critical</span></td></tr>
+        <tr><td><strong>TXN_0076516</strong></td><td>NDM_000096</td><td><span class="badge high">Critical</span> 0.948</td><td><span class="bar-bg"><span class="bar-fill" style="width:100%"></span></span>1.00</td><td><span class="bar-bg"><span class="bar-fill" style="width:99%"></span></span>0.99</td><td>0.74</td><td><span class="badge high">Critical</span></td></tr>
+        <tr><td><strong>TXN_0045555</strong></td><td>NDM_002848</td><td><span class="badge high">Critical</span> 0.947</td><td><span class="bar-bg"><span class="bar-fill" style="width:100%"></span></span>1.00</td><td><span class="bar-bg"><span class="bar-fill" style="width:99%"></span></span>0.99</td><td>0.74</td><td><span class="badge high">Critical</span></td></tr>
+        <tr><td><strong>TXN_0025138</strong></td><td>NDM_002848</td><td><span class="badge high">Critical</span> 0.947</td><td><span class="bar-bg"><span class="bar-fill" style="width:100%"></span></span>1.00</td><td><span class="bar-bg"><span class="bar-fill" style="width:99%"></span></span>0.99</td><td>0.74</td><td><span class="badge high">Critical</span></td></tr>
+        <tr><td><strong>TXN_0053985</strong></td><td>NDM_000096</td><td><span class="badge high">Critical</span> 0.947</td><td><span class="bar-bg"><span class="bar-fill" style="width:100%"></span></span>1.00</td><td><span class="bar-bg"><span class="bar-fill" style="width:100%"></span></span>1.00</td><td>0.74</td><td><span class="badge high">Critical</span></td></tr>
+        <tr><td><strong>TXN_0042913</strong></td><td>NDM_001197</td><td><span class="badge high">Critical</span> 0.947</td><td><span class="bar-bg"><span class="bar-fill" style="width:100%"></span></span>1.00</td><td><span class="bar-bg"><span class="bar-fill" style="width:100%"></span></span>1.00</td><td>0.74</td><td><span class="badge high">Critical</span></td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- SIMULATION -->
+  <section>
+    <h2>Simulation scenarios — comparative results</h2>
+    <p class="desc">Three control scenarios evaluated using 1,000 Monte Carlo iterations each. Response-time characteristics are simulation assumptions.</p>
+    <div class="scenario-grid">
+      <div class="scenario">
+        <h3>Baseline Manual</h3>
+        <div class="rate mid">60.08%</div>
+        <div class="note">simulated detection rate</div>
+        <div class="note">30.06 min mean response · 42.63 min P95</div>
+        <div class="note">97.11% SLA breach rate</div>
+      </div>
+      <div class="scenario">
+        <h3>Risk-Based XGBoost</h3>
+        <div class="rate mid">93.67%</div>
+        <div class="note">simulated detection rate</div>
+        <div class="note">15.01 min mean response · 21.37 min P95</div>
+        <div class="note">50.13% SLA breach rate</div>
+      </div>
+      <div class="scenario">
+        <h3>Enhanced Multi-Signal</h3>
+        <div class="rate low">95.06%</div>
+        <div class="note">simulated detection rate</div>
+        <div class="note">8.00 min mean response · 11.20 min P95</div>
+        <div class="note">0.03% SLA breach rate</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INCIDENT TIMELINE -->
+  <section>
+    <h2>Incident evidence timeline</h2>
+    <p class="desc">Correlated evidence for representative account NDM_000003 and fraud transaction TXN_0057123.</p>
+    <div class="timeline-wrap">
+      <table class="timeline">
+        <thead>
+          <tr><th>#</th><th>Timestamp</th><th>Source</th><th>Event ID</th><th>Evidence</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>1</td><td>2026-09-01 20:42:09</td><td class="source">AUTHENTICATION</td><td>AUTH_0064408</td><td>Login SUCCESS</td></tr>
+          <tr><td>2</td><td>2026-09-02 02:12:26</td><td class="source">AUTHENTICATION</td><td>AUTH_0052702</td><td>Login SUCCESS</td></tr>
+          <tr><td>3</td><td>2026-09-02 04:00:28</td><td class="source">AUTHENTICATION</td><td>AUTH_0056486</td><td>Login SUCCESS</td></tr>
+          <tr><td>4</td><td>2026-09-02 04:10:14</td><td class="source">AUTHENTICATION</td><td>AUTH_0043710</td><td>Login SUCCESS</td></tr>
+          <tr><td>5</td><td>2026-09-02 10:40:07</td><td class="source">TRANSACTION</td><td>TXN_0025562</td><td>P2P_TRANSFER · amount=1621.96</td></tr>
+          <tr><td>6</td><td>2026-09-02 16:08:33</td><td class="source">SUPPORT</td><td>TICKET_000416</td><td>Account locked after several login attempts</td></tr>
+          <tr><td>7</td><td>2026-09-02 16:36:19</td><td class="source">AUTHENTICATION</td><td>ATO_AUTH_NDM_000003_1</td><td>Login FAILED · Bad OTP</td></tr>
+          <tr><td>8</td><td>2026-09-02 16:45:19</td><td class="source">AUTHENTICATION</td><td>ATO_AUTH_NDM_000003_2</td><td>Login FAILED · Bad OTP</td></tr>
+          <tr><td>9</td><td>2026-09-02 16:46:19</td><td class="source">AUTHENTICATION</td><td>ATO_AUTH_NDM_000003_3</td><td>Login FAILED · Wrong Password</td></tr>
+          <tr><td>10</td><td>2026-09-02 16:46:19</td><td class="source">DEVICE_SIM</td><td>ATO_DEV_EVT_NDM_000003</td><td>Device/SIM event · DEVICE_CHANGE</td></tr>
+          <tr><td>11</td><td>2026-09-02 16:47:19</td><td class="source">GEOLOCATION</td><td>ATO_GEO_NDM_000003</td><td>Location · Keetmanshoop</td></tr>
+          <tr><td>12</td><td>2026-09-02 16:49:19</td><td class="source">TRANSACTION</td><td>TXN_0057123</td><td>P2P_TRANSFER · amount=2128.89 · FRAUD</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ADVERSARIAL TESTING -->
+  <section>
+    <h2>Adversarial robustness tests</h2>
+    <p class="desc">Simple evasion tests demonstrate how individual analytical signals respond to attacker manipulation.</p>
+    <div class="attack-grid">
+      <div class="attack">
+        <h3>Feature manipulation</h3>
+        <div class="change">0.0920 → 0.0015</div>
+        <div class="note">Mean XGBoost probability after reducing failed-login activity by 80%.</div>
+      </div>
+      <div class="attack">
+        <h3>Low-and-slow behaviour</h3>
+        <div class="change">0.0920 → 0.0186</div>
+        <div class="note">Mean XGBoost probability after reducing behavioural velocity signals.</div>
+      </div>
+      <div class="attack">
+        <h3>Text obfuscation</h3>
+        <div class="change">0.4326 → 0.3878</div>
+        <div class="note">Mean NLP probability after simple keyword obfuscation.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEXT MINING -->
+  <section>
+    <h2>Text-mining — fraud-indicator support tickets</h2>
+    <p class="desc">Support-ticket intelligence provides a complementary signal for analyst triage.</p>
+
+    <div class="ticket">
+      <div class="meta">TCK000013 · predicted category: <strong>account takeover</strong></div>
+      I received an OTP I never requested and then my balance dropped.
+    </div>
+
+    <div class="ticket">
+      <div class="meta">TCK000018 · predicted category: <strong>account takeover</strong></div>
+      I did not make this transfer, someone accessed my account without permission.
+    </div>
+
+    <div class="ticket">
+      <div class="meta">TCK000061 · predicted category: <strong>account takeover</strong></div>
+      Someone changed my PIN and I can no longer log in to my account.
+    </div>
+
+    <div class="ticket">
+      <div class="meta">TCK000110 · predicted category: <strong>account takeover</strong></div>
+      My SIM card stopped working and now money is missing from my wallet.
+    </div>
+  </section>
+
+  <div class="footer-note">
+    Prototype build — Milestone 2 · Members 222073470 &amp; 201086263 ·
+    All figures computed from synthetic data. Risk scores are for analyst decision support,
+    not automated enforcement. The supervised and behavioural features are based on synthetic
+    scenario data and should be validated against realistic temporal behaviour before production use.
+  </div>
+
+</div>
+</body>
+</html>
