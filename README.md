@@ -1,5 +1,5 @@
 # Mobile Money Account Takeover & Transaction Abuse Analytics
-### Milestone 2 — Working Prototype (Repository Snapshot)
+### Milestone 2 - Working Prototype (Repository Snapshot)
 
 Members: 222073470 (Member A) · 201086263 (Member B)
 
