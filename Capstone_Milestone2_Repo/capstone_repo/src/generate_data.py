@@ -28,10 +28,12 @@ OUT_DIR = Path(__file__).resolve().parents[1] / "data"
 OUT_DIR.mkdir(exist_ok=True)
 
 CITIES = [
-    ("Nairobi", -1.286389, 36.817223), ("Mombasa", -4.05, 39.666667),
-    ("Kisumu", -0.1, 34.75), ("Nakuru", -0.303, 36.08),
-    ("Eldoret", 0.520, 35.269), ("Lagos", 6.5244, 3.3792),
-    ("Kampala", 0.3476, 32.5825),
+    ("Windhoek", -22.5597, 17.0832), 
+    ("Swakopmund", -22.6784, 14.5268), 
+    ("Walvis Bay", -22.9575, 14.5053), 
+    ("Oshakati", -17.7833, 15.6833), 
+    ("Rundu", -17.9333, 19.7667), 
+    ("Keetmanshoop", -26.5786, 18.1333),
 ]
 
 
@@ -99,7 +101,7 @@ def generate_transactions():
             "account_id": acc,
             "timestamp": pd.Timestamp("2026-06-01") + pd.to_timedelta(rng.integers(0, 60 * 24 * 60), unit="m"),
             "amount": round(amount, 2),
-            "currency": "KES",
+            "currency": "N$",
             "channel": channel,
             "counterparty_id": f"CP{rng.integers(0, 4000):05d}",
             "is_fraud": int(is_fraud),
