@@ -76,8 +76,38 @@
     <div id="ticketList"></div>
   </section>
 
+  <section>
+    <h2>Incident timeline — early-warning score trend</h2>
+    <p class="desc">Rolling risk score at 5 chronological checkpoints for a sample of compromised accounts, showing how early the pipeline could plausibly have raised an alert.</p>
+    <table>
+      <thead><tr><th>Account</th><th>Checkpoint 1</th><th>Checkpoint 2</th><th>Checkpoint 3</th><th>Checkpoint 4</th><th>Checkpoint 5</th></tr></thead>
+      <tbody id="timelineTable"></tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>Security-control evaluation</h2>
+    <p class="desc">Baseline (no control) vs. two alternative response controls, applied to the same scored population.</p>
+    <table>
+      <thead><tr><th>Control</th><th>Accounts held</th><th>Recall (fraud caught)</th><th>Friction (legit held)</th><th>Fraud amount prevented</th></tr></thead>
+      <tbody id="controlsTable"></tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>Analyst recommendation export</h2>
+    <p class="desc">Select a case above's rank to generate a plain-text recommendation an analyst can copy into a ticketing system.</p>
+    <div style="display:flex;gap:10px;align-items:center;margin-bottom:10px;">
+      <select id="caseSelect" style="padding:6px 10px;border-radius:6px;border:1px solid var(--border);font-size:12.5px;"></select>
+      <button id="exportBtn" style="background:var(--accent);color:#fff;border:none;border-radius:6px;padding:7px 14px;font-size:12.5px;cursor:pointer;">Generate recommendation</button>
+      <button id="copyBtn" style="background:#fff;color:var(--accent);border:1px solid var(--accent);border-radius:6px;padding:7px 14px;font-size:12.5px;cursor:pointer;">Copy to clipboard</button>
+      <span id="copyStatus" style="font-size:11.5px;color:var(--ok);"></span>
+    </div>
+    <textarea id="exportText" readonly style="width:100%;min-height:110px;font-family:ui-monospace,monospace;font-size:12px;padding:10px;border-radius:8px;border:1px solid var(--border);background:#FAFBFE;"></textarea>
+  </section>
+
   <div class="footer-note">
-    Prototype build — Milestone 2 · Members 222073470 &amp; 201086263 · All figures computed from synthetic data
+    Prototype build — Milestone 2 · Members 223119245 &amp; 201086263 · All figures computed from synthetic data
     (see <code>src/</code> for generation and modelling scripts, <code>outputs/</code> for raw result files).
     Known limitation: legitimate-travel simulation shows an elevated false-positive rate at the 0.5 threshold —
     see Implementation Backlog in the accompanying plan document.
@@ -538,7 +568,157 @@ const d = {
       "category": "account_takeover",
       "text": "I did not make this transfer, someone accessed my account without permission."
     }
-  ]
+  ],
+  "controls": {
+    "baseline": {
+      "control": "Baseline (no control)",
+      "n_held": 0,
+      "recall_true_positives_held": 0.0,
+      "friction_false_positive_rate": 0.0,
+      "amount_at_risk_prevented": 0.0,
+      "share_of_total_fraud_amount_prevented": 0.0
+    },
+    "control_a": {
+      "control": "Control A: ML-threshold hold (t=0.75)",
+      "n_held": 42,
+      "recall_true_positives_held": 0.875,
+      "friction_false_positive_rate": 0.0,
+      "amount_at_risk_prevented": 788807.5,
+      "share_of_total_fraud_amount_prevented": 0.959
+    },
+    "control_b": {
+      "control": "Control B: rule-based step-up (SIM change + high-value txn)",
+      "n_held": 19,
+      "recall_true_positives_held": 0.396,
+      "friction_false_positive_rate": 0.0,
+      "amount_at_risk_prevented": 516588.93,
+      "share_of_total_fraud_amount_prevented": 0.628
+    },
+    "threshold_sensitivity_sweep": [
+      {
+        "threshold": 0.3,
+        "recall": 1.0,
+        "friction": 0.0,
+        "n_held": 48
+      },
+      {
+        "threshold": 0.35,
+        "recall": 1.0,
+        "friction": 0.0,
+        "n_held": 48
+      },
+      {
+        "threshold": 0.4,
+        "recall": 1.0,
+        "friction": 0.0,
+        "n_held": 48
+      },
+      {
+        "threshold": 0.45,
+        "recall": 0.979,
+        "friction": 0.0,
+        "n_held": 47
+      },
+      {
+        "threshold": 0.5,
+        "recall": 0.979,
+        "friction": 0.0,
+        "n_held": 47
+      },
+      {
+        "threshold": 0.55,
+        "recall": 0.979,
+        "friction": 0.0,
+        "n_held": 47
+      },
+      {
+        "threshold": 0.6,
+        "recall": 0.958,
+        "friction": 0.0,
+        "n_held": 46
+      },
+      {
+        "threshold": 0.65,
+        "recall": 0.958,
+        "friction": 0.0,
+        "n_held": 46
+      },
+      {
+        "threshold": 0.7,
+        "recall": 0.938,
+        "friction": 0.0,
+        "n_held": 45
+      },
+      {
+        "threshold": 0.75,
+        "recall": 0.875,
+        "friction": 0.0,
+        "n_held": 42
+      },
+      {
+        "threshold": 0.8,
+        "recall": 0.812,
+        "friction": 0.0,
+        "n_held": 39
+      },
+      {
+        "threshold": 0.85,
+        "recall": 0.625,
+        "friction": 0.0,
+        "n_held": 30
+      },
+      {
+        "threshold": 0.9,
+        "recall": 0.375,
+        "friction": 0.0,
+        "n_held": 18
+      }
+    ]
+  },
+  "timeline": {
+    "ACC100050": [
+      0.003,
+      0.39,
+      0.383,
+      0.82,
+      0.997
+    ],
+    "ACC100054": [
+      0.197,
+      0.81,
+      0.823,
+      0.913,
+      0.913
+    ],
+    "ACC100065": [
+      0.007,
+      0.053,
+      0.893,
+      0.86,
+      0.953
+    ],
+    "ACC100067": [
+      0.003,
+      0.61,
+      0.55,
+      0.916,
+      0.983
+    ],
+    "ACC100071": [
+      0.003,
+      0.037,
+      0.857,
+      0.817,
+      0.927
+    ],
+    "ACC100072": [
+      0.003,
+      0.003,
+      0.987,
+      0.977,
+      0.996
+    ]
+  }
 };
 (function(d){
 
@@ -594,6 +774,74 @@ const d = {
       ${t.text}
     </div>
   `).join('');
+
+  // --- incident timeline ---
+  if (d.timeline) {
+    document.getElementById('timelineTable').innerHTML = Object.entries(d.timeline).map(([acc, series]) => `
+      <tr>
+        <td><strong>${acc}</strong></td>
+        ${series.map(v => `<td>${riskBadge(v)} ${v.toFixed(2)}</td>`).join('')}
+      </tr>
+    `).join('');
+  }
+
+  // --- controls ---
+  if (d.controls) {
+    const rows = [d.controls.baseline, d.controls.control_a, d.controls.control_b];
+    document.getElementById('controlsTable').innerHTML = rows.map(c => `
+      <tr>
+        <td><strong>${c.control}</strong></td>
+        <td>${c.n_held}</td>
+        <td>${(c.recall_true_positives_held*100).toFixed(0)}%</td>
+        <td>${(c.friction_false_positive_rate*100).toFixed(0)}%</td>
+        <td>${c.amount_at_risk_prevented.toLocaleString(undefined,{maximumFractionDigits:0})} (${(c.share_of_total_fraud_amount_prevented*100).toFixed(0)}%)</td>
+      </tr>
+    `).join('');
+  }
+
+  // --- export / recommendation ---
+  const select = document.getElementById('caseSelect');
+  select.innerHTML = d.top_cases.map((c, i) => `<option value="${i}">#${i+1} ${c.account_id} (risk ${c.combined_risk.toFixed(2)})</option>`).join('');
+
+  function buildRecommendation(c) {
+    const tier = c.combined_risk >= 0.75 ? 'HIGH' : c.combined_risk >= 0.5 ? 'MEDIUM' : 'LOW';
+    return [
+      `ACCOUNT RISK RECOMMENDATION`,
+      `================================`,
+      `Account: ${c.account_id}`,
+      `Combined risk score: ${c.combined_risk.toFixed(3)} (${tier} priority)`,
+      `Supervised model score: ${c.supervised_risk_score.toFixed(3)}`,
+      `Anomaly score: ${c.anomaly_score.toFixed(3)}`,
+      ``,
+      `Supporting evidence:`,
+      `  - SIM/device changes observed: ${c.n_sim_changes}`,
+      `  - Login failure rate: ${(c.failure_rate*100).toFixed(0)}%`,
+      `  - Largest transaction: ${c.max_amount.toLocaleString(undefined,{maximumFractionDigits:0})}`,
+      ``,
+      `Recommended action: ${tier === 'HIGH' ? 'Hold pending step-up verification; priority analyst review.' :
+        tier === 'MEDIUM' ? 'Queue for standard-priority analyst review.' : 'No action required; monitor.'}`,
+      ``,
+      `Generated from synthetic Milestone-2 prototype data. Decision support only — not an automated enforcement action.`,
+    ].join('\n');
+  }
+
+  document.getElementById('exportBtn').addEventListener('click', () => {
+    const c = d.top_cases[Number(select.value)];
+    document.getElementById('exportText').value = buildRecommendation(c);
+    document.getElementById('copyStatus').textContent = '';
+  });
+  document.getElementById('copyBtn').addEventListener('click', () => {
+    const text = document.getElementById('exportText').value;
+    if (!text) return;
+    navigator.clipboard.writeText(text).then(() => {
+      document.getElementById('copyStatus').textContent = 'Copied ✓';
+      setTimeout(() => document.getElementById('copyStatus').textContent = '', 1500);
+    }).catch(() => {
+      document.getElementById('copyStatus').textContent = 'Copy failed — select text manually.';
+    });
+  });
+  // populate initial recommendation
+  document.getElementById('exportText').value = buildRecommendation(d.top_cases[0]);
 })(d);
 </script>
 </body>
