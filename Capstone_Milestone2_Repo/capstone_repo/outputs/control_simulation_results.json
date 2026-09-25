@@ -1,0 +1,114 @@
+{
+  "baseline": {
+    "control": "Baseline (no control)",
+    "n_held": 0,
+    "recall_true_positives_held": 0.0,
+    "friction_false_positive_rate": 0.0,
+    "amount_at_risk_prevented": 0.0,
+    "share_of_total_fraud_amount_prevented": 0.0
+  },
+  "control_a": {
+    "control": "Control A: ML-threshold hold (t=0.75)",
+    "n_held": 42,
+    "recall_true_positives_held": 0.875,
+    "friction_false_positive_rate": 0.0,
+    "amount_at_risk_prevented": 788807.5,
+    "share_of_total_fraud_amount_prevented": 0.959
+  },
+  "control_b": {
+    "control": "Control B: rule-based step-up (SIM change + high-value txn)",
+    "n_held": 19,
+    "recall_true_positives_held": 0.396,
+    "friction_false_positive_rate": 0.0,
+    "amount_at_risk_prevented": 516588.93,
+    "share_of_total_fraud_amount_prevented": 0.628
+  },
+  "control_combined": {
+    "control": "Combined control (A OR B)",
+    "n_held": 43,
+    "recall_true_positives_held": 0.896,
+    "friction_false_positive_rate": 0.0,
+    "amount_at_risk_prevented": 809963.56,
+    "share_of_total_fraud_amount_prevented": 0.984
+  },
+  "threshold_sensitivity_sweep": [
+    {
+      "threshold": 0.3,
+      "recall": 1.0,
+      "friction": 0.0,
+      "n_held": 48
+    },
+    {
+      "threshold": 0.35,
+      "recall": 1.0,
+      "friction": 0.0,
+      "n_held": 48
+    },
+    {
+      "threshold": 0.4,
+      "recall": 1.0,
+      "friction": 0.0,
+      "n_held": 48
+    },
+    {
+      "threshold": 0.45,
+      "recall": 0.979,
+      "friction": 0.0,
+      "n_held": 47
+    },
+    {
+      "threshold": 0.5,
+      "recall": 0.979,
+      "friction": 0.0,
+      "n_held": 47
+    },
+    {
+      "threshold": 0.55,
+      "recall": 0.979,
+      "friction": 0.0,
+      "n_held": 47
+    },
+    {
+      "threshold": 0.6,
+      "recall": 0.958,
+      "friction": 0.0,
+      "n_held": 46
+    },
+    {
+      "threshold": 0.65,
+      "recall": 0.958,
+      "friction": 0.0,
+      "n_held": 46
+    },
+    {
+      "threshold": 0.7,
+      "recall": 0.938,
+      "friction": 0.0,
+      "n_held": 45
+    },
+    {
+      "threshold": 0.75,
+      "recall": 0.875,
+      "friction": 0.0,
+      "n_held": 42
+    },
+    {
+      "threshold": 0.8,
+      "recall": 0.812,
+      "friction": 0.0,
+      "n_held": 39
+    },
+    {
+      "threshold": 0.85,
+      "recall": 0.625,
+      "friction": 0.0,
+      "n_held": 30
+    },
+    {
+      "threshold": 0.9,
+      "recall": 0.375,
+      "friction": 0.0,
+      "n_held": 18
+    }
+  ]
+}
