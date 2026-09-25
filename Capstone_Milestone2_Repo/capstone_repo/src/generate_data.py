@@ -15,7 +15,7 @@ import numpy as np
 import pandas as pd
 from pathlib import Path
 
-SEED = 2115799
+SEED = 42
 rng = np.random.default_rng(SEED)
 
 N_ACCOUNTS = 800
@@ -100,7 +100,7 @@ def generate_transactions():
             "account_id": acc,
             "timestamp": pd.Timestamp("2026-06-01") + pd.to_timedelta(rng.integers(0, 60 * 24 * 60), unit="m"),
             "amount": round(amount, 2),
-            "currency": "KES",
+            "currency": "N$",
             "channel": channel,
             "counterparty_id": f"CP{rng.integers(0, 4000):05d}",
             "is_fraud": int(is_fraud),
