@@ -1,0 +1,26 @@
+{
+  "ADV-1": {
+    "name": "Low-and-slow SIM swap",
+    "manipulation": "Failure-rate and geo-dispersion features suppressed toward normal ranges to mimic an attacker spreading actions over days instead of minutes. Cash-out amount features left unchanged (the attacker still needs to extract funds).",
+    "baseline_alert_rate_0.75": 1.0,
+    "observed_alert_rate_0.75": 1.0,
+    "observed_effect": "Alert rate at the Control A threshold (0.75) was unchanged (100% -> 100%). Suppressing the failure-rate/geo-dispersion signal alone did not evade detection because the large cash-out amount remains highly discriminative on its own (mean_amount is the model's #2 feature, Section 6). This is a genuine robustness finding, but it also flags a dependency risk: an attacker who additionally moderates transaction size (see ADV-3, not executed this milestone) would likely evade both signals at once.",
+    "mitigation": "Add rolling-window velocity features computed over multi-day windows, so detection does not rely on transaction-amount magnitude alone against a patient attacker."
+  },
+  "ADV-2": {
+    "name": "MFA-present takeover",
+    "manipulation": "mean_mfa feature raised to legitimate-customer levels (0.7-1.0) to mimic an attacker who has intercepted the OTP via a completed SIM swap. Cash-out amount features left unchanged.",
+    "baseline_alert_rate_0.75": 1.0,
+    "observed_alert_rate_0.75": 1.0,
+    "observed_effect": "Alert rate at the Control A threshold was also unchanged (100% -> 100%), for the same reason as ADV-1: the anomaly detector and the amount-driven share of the supervised score do not depend on MFA status, so spoofing MFA alone does not evade this pipeline in its current form.",
+    "mitigation": "No immediate action required for MFA-spoofing alone under the current feature set; priority instead is the amount-moderation gap identified via ADV-1 (see mitigation above)."
+  },
+  "ADV-4": {
+    "name": "Mimicked legitimate travel",
+    "manipulation": "Gradual, realistic geolocation drift with high MFA usage and normal transaction amounts, matching genuine customer travel (simulation.py legit_travel scenario).",
+    "baseline_alert_rate_0.75": null,
+    "observed_alert_rate_0.5": 0.76,
+    "observed_effect": "At the 0.5 reporting threshold, 76% of legitimate-travel accounts are still incorrectly alerted \u2014 the pipeline's weakest point is symmetrical: an attacker mimicking travel benefits from the same feature overlap that already causes false positives on genuine travellers.",
+    "mitigation": "Same as Known Issue 1 (Milestone 2): add velocity/sequence features and consider a travel-declaration or device-continuity signal to break the symmetry."
+  }
+}
