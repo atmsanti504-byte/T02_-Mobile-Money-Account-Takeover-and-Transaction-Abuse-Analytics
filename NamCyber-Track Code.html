@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ReportShield – Report Cyberattacks, Scams &amp; Fraud</title>
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);--bg:#f5f7fa;--card:#fff;--text:#14213d;--muted:#5b6678;--line:#d8dee8;--accent:#0b6e4f;--accent-t:#fff;--warn:#b42318;--chip:#e7f3ee;color-scheme:light}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e141b;--card:#171f29;--text:#e8edf3;--muted:#9aa7b8;--line:#2b3644;--accent:#3ecf8e;--accent-t:#062417;--warn:#ff8a80;--chip:#1c2f28;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0e141b;--card:#171f29;--text:#e8edf3;--muted:#9aa7b8;--line:#2b3644;--accent:#3ecf8e;--accent-t:#062417;--warn:#ff8a80;--chip:#1c2f28;color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+header{background:var(--card);border-bottom:1px solid var(--line)}
+.wrap{max-width:900px;margin:0 auto;padding:16px}
+h1{font-size:1.4rem;margin:0}h2{font-size:1.1rem;margin:0 0 12px}
+.sub{color:var(--muted);margin:4px 0 0}
+nav{display:flex;gap:6px;margin-top:12px;flex-wrap:wrap}
+nav button{background:none;border:1px solid var(--line);color:var(--text);padding:8px 14px;border-radius:999px;cursor:pointer;font:inherit}
+nav button[aria-selected=true]{background:var(--accent);color:var(--accent-t);border-color:var(--accent)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;margin:16px 0}
+.alert{border-left:4px solid var(--warn);padding:10px 14px;background:var(--card);border-radius:8px;margin:16px 0;font-size:.95rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+label{display:block;font-size:.88rem;font-weight:600;margin-bottom:4px}
+.hint{font-weight:400;color:var(--muted)}
+input,select,textarea{width:100%;padding:9px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--text);font:inherit}
+textarea{min-height:90px;resize:vertical}
+.field{margin-bottom:12px}
+.checks{display:flex;flex-wrap:wrap;gap:8px}
+.checks label{font-weight:400;display:flex;gap:6px;align-items:center;margin:0;padding:6px 10px;border:1px solid var(--line);border-radius:999px}
+.checks input{width:auto}
+.btn{background:var(--accent);color:var(--accent-t);border:0;padding:11px 20px;border-radius:8px;font:inherit;font-weight:600;cursor:pointer}
+.btn.sec{background:none;color:var(--text);border:1px solid var(--line);font-weight:500;padding:8px 14px}
+.err{color:var(--warn);font-size:.85rem;margin-top:3px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px}
+.stat{background:var(--chip);border-radius:10px;padding:12px}.stat b{font-size:1.5rem;display:block}
+.bar{display:flex;align-items:center;gap:8px;font-size:.88rem;margin:4px 0}.bar span:first-child{width:150px;flex:none}
+.bar i{display:block;height:10px;background:var(--accent);border-radius:5px}
+.rep{border-top:1px solid var(--line);padding:12px 0}.rep:first-child{border:0}
+.tag{display:inline-block;background:var(--chip);border-radius:999px;padding:2px 10px;font-size:.8rem;margin:2px 4px 2px 0}
+.tag.crit{background:var(--warn);color:var(--bg)}
+.hidden{display:none}
+code,pre{font-family:ui-monospace,Menlo,monospace;font-size:.82rem}
+pre{background:var(--bg);padding:10px;border-radius:8px;overflow-x:auto;max-height:260px}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+ul{padding-left:20px}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<h1>🛡️ ReportShield</h1>
+<p class="sub">Report cyberattacks, scams and fraud so responders can act and others can be protected.</p>
+<nav role="tablist">
+<button role="tab" aria-selected="true" data-tab="report">Report an incident</button>
+<button role="tab" aria-selected="false" data-tab="dash">Reports &amp; analysis</button>
+<button role="tab" aria-selected="false" data-tab="help">Guidance</button>
+</nav></div></header>
+
+<main class="wrap">
+<section id="report">
+<div class="alert"><b>Emergency?</b> If money is leaving your account or systems are actively being encrypted, contact your bank, your IT/security team and local police immediately, then file this report.</div>
+<form id="f" novalidate>
+<div class="card"><h2>1. Who is reporting</h2><div class="grid">
+<div class="field"><label>Reporter type</label><select name="rtype"><option>Individual</option><option>Small business</option><option>Large organization</option><option>Government / public body</option><option>NGO / non-profit</option></select></div>
+<div class="field"><label>Organization / sector <span class="hint">(optional)</span></label><input name="org" placeholder="e.g. Finance, Health, Education"></div>
+<div class="field"><label>Contact email <span class="hint">(optional)</span></label><input name="email" type="email" placeholder="for follow-up only"></div>
+</div>
+<div class="checks"><label><input type="checkbox" name="anon"> Report anonymously (contact details discarded)</label></div></div>
+
+<div class="card"><h2>2. What happened</h2><div class="grid">
+<div class="field"><label>Incident type *</label><select name="cat" required><option value="">Select…</option>
+<option>Phishing (email)</option><option>Smishing (SMS)</option><option>Vishing (phone call)</option><option>Ransomware</option><option>Malware / spyware</option><option>Business email compromise</option><option>Account takeover</option><option>Identity theft</option><option>Investment / crypto scam</option><option>Romance scam</option><option>Tech-support scam</option><option>Online shopping / marketplace fraud</option><option>Payment / card fraud</option><option>Data breach / leak</option><option>DDoS attack</option><option>Social-media impersonation</option><option>Other</option></select><div class="err" data-e="cat"></div></div>
+<div class="field"><label>Attack vector</label><select name="vector"><option>Email</option><option>SMS / messaging app</option><option>Phone call</option><option>Website / link</option><option>Social media</option><option>Mobile app</option><option>Removable media</option><option>Network / remote access</option><option>Insider / physical</option><option>Unknown</option></select></div>
+<div class="field"><label>Severity *</label><select name="sev"><option>Low</option><option selected>Medium</option><option>High</option><option>Critical</option></select></div>
+</div>
+<div class="grid">
+<div class="field"><label>Date &amp; time of incident *</label><input type="datetime-local" name="when" required><div class="err" data-e="when"></div></div>
+<div class="field"><label>Date &amp; time detected</label><input type="datetime-local" name="det"></div>
+<div class="field"><label>Status</label><select name="status"><option>Ongoing</option><option>Contained</option><option>Resolved</option><option>Unknown</option></select></div>
+</div>
+<div class="field"><label>Description *</label><textarea name="desc" placeholder="What happened, in order? What did the attacker say or do?"></textarea><div class="err" data-e="desc"></div></div></div>
+
+<div class="card"><h2>3. Location</h2><div class="grid">
+<div class="field"><label>Country *</label><input name="country" placeholder="e.g. Namibia" required><div class="err" data-e="country"></div></div>
+<div class="field"><label>Region / state</label><input name="region"></div>
+<div class="field"><label>City / town</label><input name="city"></div>
+<div class="field"><label>Time zone</label><input name="tz" readonly></div>
+</div>
+<div class="grid">
+<div class="field"><label>Latitude</label><input name="lat" inputmode="decimal"></div>
+<div class="field"><label>Longitude</label><input name="lon" inputmode="decimal"></div>
+<div class="field"><label>&nbsp;</label><button type="button" class="btn sec" id="geo">📍 Use my current location</button></div>
+</div>
+<p class="hint">Location of the victim or affected systems. Coordinates are optional; city-level accuracy is enough.</p></div>
+
+<div class="card"><h2>4. Indicators for responders <span class="hint">(one per line)</span></h2><div class="grid">
+<div class="field"><label>URLs / domains</label><textarea name="urls" placeholder="hxxps://bad-site[.]example"></textarea></div>
+<div class="field"><label>IP addresses</label><textarea name="ips"></textarea></div>
+<div class="field"><label>Sender emails / phone numbers / handles</label><textarea name="senders"></textarea></div>
+<div class="field"><label>File names / hashes (MD5, SHA-256)</label><textarea name="hashes"></textarea></div>
+<div class="field"><label>Crypto wallets / bank accounts</label><textarea name="wallets"></textarea></div>
+<div class="field"><label>Malware / actor name <span class="hint">(if known)</span></label><input name="actor" placeholder="e.g. LockBit, unknown"></div>
+</div></div>
+
+<div class="card"><h2>5. Impact</h2><div class="grid">
+<div class="field"><label>Financial loss</label><input name="loss" type="number" min="0" step="any" placeholder="0"></div>
+<div class="field"><label>Currency</label><select name="cur"><option>NAD</option><option>USD</option><option>EUR</option><option>GBP</option><option>ZAR</option><option>Other</option></select></div>
+<div class="field"><label>Payment method used</label><select name="pay"><option>None</option><option>Bank transfer</option><option>Card</option><option>Mobile money</option><option>Cryptocurrency</option><option>Gift cards</option><option>Cash</option><option>Other</option></select></div>
+<div class="field"><label>People / accounts affected</label><input name="victims" type="number" min="1" value="1"></div>
+</div>
+<div class="field"><label>Systems / data affected</label><div class="checks">
+<label><input type="checkbox" name="data" value="Credentials"> Credentials</label><label><input type="checkbox" name="data" value="Personal data"> Personal data</label><label><input type="checkbox" name="data" value="Financial data"> Financial data</label><label><input type="checkbox" name="data" value="Health data"> Health data</label><label><input type="checkbox" name="data" value="Servers"> Servers</label><label><input type="checkbox" name="data" value="Endpoints"> Endpoints</label><label><input type="checkbox" name="data" value="Cloud accounts"> Cloud accounts</label><label><input type="checkbox" name="data" value="Backups"> Backups</label><label><input type="checkbox" name="data" value="Operations disrupted"> Operations disrupted</label></div></div>
+<div class="field"><label>Actions already taken</label><div class="checks">
+<label><input type="checkbox" name="act" value="Reported to bank"> Told bank</label><label><input type="checkbox" name="act" value="Reported to police"> Told police</label><label><input type="checkbox" name="act" value="Changed passwords"> Changed passwords</label><label><input type="checkbox" name="act" value="Isolated systems"> Isolated systems</label><label><input type="checkbox" name="act" value="Restored from backup"> Restored backups</label><label><input type="checkbox" name="act" value="Engaged IR provider"> Hired responders</label></div></div>
+<div class="field"><label>Evidence you hold <span class="hint">(do not paste secrets; keep originals safe)</span></label><input name="evidence" placeholder="e.g. email headers, screenshots, logs, receipts"></div></div>
+
+<div class="card"><h2>6. Sharing</h2>
+<div class="field"><select name="tlp"><option>TLP:AMBER – share with responders and partners</option><option>TLP:GREEN – share with trusted community</option><option>TLP:CLEAR – may be shared publicly (indicators only)</option><option>TLP:RED – this agency only</option></select></div>
+<div class="checks"><label><input type="checkbox" name="consent" required> I confirm the information is accurate to the best of my knowledge *</label></div><div class="err" data-e="consent"></div>
+<p><button class="btn" type="submit">Submit report</button></p></div>
+</form>
+<div id="done" class="card hidden"></div>
+</section>
+
+<section id="dash" class="hidden">
+<div class="card"><h2>Analysis overview</h2><div class="stats" id="stats"></div></div>
+<div class="card"><h2>By incident type</h2><div id="bycat"></div></div>
+<div class="card"><h2>By country / region</h2><div id="byloc"></div></div>
+<div class="card"><div class="row" style="justify-content:space-between"><h2 style="margin:0">Submitted reports</h2>
+<div class="row"><select id="flt" style="width:auto"><option value="">All severities</option><option>Critical</option><option>High</option><option>Medium</option><option>Low</option></select>
+<button class="btn sec" id="xjson">Copy JSON</button><button class="btn sec" id="xcsv">Copy CSV</button><button class="btn sec" id="clr">Clear</button></div></div>
+<p class="hint">Reports are saved in this browser. A deployed service would send them to a central, access-controlled database for responders.</p>
+<div id="list"></div><pre id="out" class="hidden"></pre></div>
+</section>
+
+<section id="help" class="hidden">
+<div class="card"><h2>What to include</h2><ul>
+<li><b>When &amp; where:</b> accurate timestamps and location help responders correlate related incidents and spot campaigns.</li>
+<li><b>Indicators:</b> URLs, IPs, sender addresses, phone numbers, hashes and wallet addresses let others block the same attacker. Defang links (hxxp, [.]) when possible.</li>
+<li><b>Impact:</b> money lost, data exposed and systems affected set priority.</li>
+<li><b>Never share</b> passwords, full card numbers or PINs in a report.</li></ul></div>
+<div class="card"><h2>Protect yourself now</h2><ul>
+<li>Stop contact with the scammer; do not send more money or codes.</li>
+<li>Call your bank to freeze or recall transfers (speed matters most).</li>
+<li>Change passwords and enable multi-factor authentication, starting with email.</li>
+<li>Disconnect infected devices from the network but keep them powered for forensics if advised.</li>
+<li>Preserve emails, messages, logs and screenshots as evidence.</li></ul></div>
+<div class="card"><h2>Privacy</h2><p>Anonymous reports drop the contact email. Fields marked optional can be left blank. Choose a TLP label to indicate how widely the information may be shared.</p></div>
+</section>
+</main>
+
+<script>
+const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
+let mem=[];const K='reportshield.reports';
+function load(){try{const v=localStorage.getItem(K);if(v)mem=JSON.parse(v)||[]}catch(e){}return mem}
+function save(){try{localStorage.setItem(K,JSON.stringify(mem))}catch(e){}}
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+$$('nav button').forEach(b=>b.onclick=()=>{$$('nav button').forEach(x=>x.setAttribute('aria-selected',x===b));['report','dash','help'].forEach(id=>$('#'+id).classList.toggle('hidden',id!==b.dataset.tab));if(b.dataset.tab==='dash')render();scrollTo(0,0)});
+try{$('[name=tz]').value=Intl.DateTimeFormat().resolvedOptions().timeZone}catch(e){}
+$('#geo').onclick=()=>{if(!navigator.geolocation)return alert('Location is not available in this browser.');navigator.geolocation.getCurrentPosition(p=>{$('[name=lat]').value=p.coords.latitude.toFixed(3);$('[name=lon]').value=p.coords.longitude.toFixed(3)},()=>alert('Could not get location. You can type coordinates or leave them blank.'),{timeout:8000})};
+const lines=v=>(v||'').split('\n').map(s=>s.trim()).filter(Boolean);
+$('#f').onsubmit=e=>{e.preventDefault();const fd=new FormData(e.target),g=n=>(fd.get(n)||'').toString().trim(),errs={};
+$$('.err').forEach(x=>x.textContent='');
+if(!g('cat'))errs.cat='Please choose an incident type.';
+if(!g('when'))errs.when='Please enter when it happened.';
+else if(new Date(g('when'))>new Date())errs.when='Date cannot be in the future.';
+if(g('desc').length<20)errs.desc='Please describe what happened (at least 20 characters).';
+if(!g('country'))errs.country='Country is required.';
+if(!fd.get('consent'))errs.consent='Please confirm before submitting.';
+const lat=g('lat'),lon=g('lon');
+if((lat&&(isNaN(lat)||Math.abs(lat)>90))||(lon&&(isNaN(lon)||Math.abs(lon)>180))){errs.country=errs.country||'Coordinates look invalid.'}
+for(const k in errs){const el=$(`[data-e=${k}]`);if(el)el.textContent=errs[k]}
+if(Object.keys(errs).length){const f=$('.err:not(:empty)');f&&f.scrollIntoView({block:'center'});return}
+const anon=!!fd.get('anon'),id='RS-'+new Date().toISOString().slice(0,10).replace(/-/g,'')+'-'+Math.random().toString(36).slice(2,7).toUpperCase();
+const r={id,submitted:new Date().toISOString(),reporter:{type:g('rtype'),org:g('org'),email:anon?'':g('email'),anonymous:anon},
+incident:{category:g('cat'),vector:g('vector'),severity:g('sev'),occurred:g('when'),detected:g('det'),status:g('status'),description:g('desc'),actor:g('actor')},
+location:{country:g('country'),region:g('region'),city:g('city'),timezone:g('tz'),lat:lat?+lat:null,lon:lon?+lon:null},
+indicators:{urls:lines(g('urls')),ips:lines(g('ips')),senders:lines(g('senders')),hashes:lines(g('hashes')),wallets:lines(g('wallets'))},
+impact:{loss:g('loss')?+g('loss'):0,currency:g('cur'),payment:g('pay'),victims:+g('victims')||1,affected:fd.getAll('data'),actions:fd.getAll('act'),evidence:g('evidence')},
+sharing:g('tlp').split(' ')[0]};
+load();mem.unshift(r);save();
+$('#f').classList.add('hidden');$('.alert').classList.add('hidden');
+const d=$('#done');d.classList.remove('hidden');
+d.innerHTML=`<h2>✅ Report received</h2><p>Your reference number is <b><code>${esc(id)}</code></b>. Keep it for follow-up.</p><p class="hint">Next steps: contact your bank if money was involved, change affected passwords, and preserve evidence.</p><button class="btn" id="again">Submit another report</button>`;
+$('#again').onclick=()=>{e.target.reset();$('#f').classList.remove('hidden');$('.alert').classList.remove('hidden');d.classList.add('hidden');scrollTo(0,0)};scrollTo(0,0)};
+function tally(arr,fn){const m={};arr.forEach(x=>{const k=fn(x)||'Unknown';m[k]=(m[k]||0)+1});return Object.entries(m).sort((a,b)=>b[1]-a[1])}
+function bars(el,data){const max=data.length?data[0][1]:1;el.innerHTML=data.length?data.map(([k,v])=>`<div class="bar"><span>${esc(k)}</span><i style="width:${Math.max(4,v/max*60)}%"></i><b>${v}</b></div>`).join(''):'<p class="hint">No data yet.</p>'}
+function render(){load();const R=mem,fl=$('#flt').value,L=fl?R.filter(r=>r.incident.severity===fl):R;
+const loss=R.reduce((a,r)=>a+r.impact.loss,0),ioc=R.reduce((a,r)=>a+Object.values(r.indicators).flat().length,0),ong=R.filter(r=>r.incident.status==='Ongoing').length;
+$('#stats').innerHTML=[['Reports',R.length],['Ongoing',ong],['Critical / High',R.filter(r=>['Critical','High'].includes(r.incident.severity)).length],['Indicators',ioc],['Reported loss',loss.toLocaleString()+' (mixed)']].map(([a,b])=>`<div class="stat"><b>${esc(b)}</b>${a}</div>`).join('');
+bars($('#bycat'),tally(R,r=>r.incident.category));
+bars($('#byloc'),tally(R,r=>[r.location.city,r.location.country].filter(Boolean).join(', ')));
+$('#list').innerHTML=L.length?L.map(r=>`<div class="rep"><b>${esc(r.incident.category)}</b> <code>${esc(r.id)}</code><br>
+<span class="tag ${r.incident.severity==='Critical'?'crit':''}">${esc(r.incident.severity)}</span><span class="tag">${esc(r.incident.status)}</span><span class="tag">${esc(r.incident.vector)}</span><span class="tag">📍 ${esc([r.location.city,r.location.region,r.location.country].filter(Boolean).join(', '))}</span><span class="tag">${esc(r.sharing)}</span>
+<div class="hint">${esc(r.incident.occurred.replace('T',' '))} · ${r.impact.victims} affected · loss ${r.impact.loss} ${esc(r.impact.currency)} · ${Object.values(r.indicators).flat().length} indicators</div>
+<div>${esc(r.incident.description.slice(0,180))}${r.incident.description.length>180?'…':''}</div></div>`).join(''):'<p class="hint">No reports yet.</p>'}
+$('#flt').onchange=render;
+function show(t){const o=$('#out');o.textContent=t;o.classList.remove('hidden');try{navigator.clipboard.writeText(t)}catch(e){}}
+$('#xjson').onclick=()=>show(JSON.stringify(load(),null,2));
+$('#xcsv').onclick=()=>{const h=['id','submitted','category','severity','status','vector','occurred','country','region','city','lat','lon','victims','loss','currency','sharing','indicators'];
+const q=v=>'"'+String(v??'').replace(/"/g,'""')+'"';
+show([h.join(',')].concat(load().map(r=>[r.id,r.submitted,r.incident.category,r.incident.severity,r.incident.status,r.incident.vector,r.incident.occurred,r.location.country,r.location.region,r.location.city,r.location.lat,r.location.lon,r.impact.victims,r.impact.loss,r.impact.currency,r.sharing,Object.values(r.indicators).flat().join(' | ')].map(q).join(','))).join('\n'))};
+$('#clr').onclick=()=>{if(confirm('Delete all reports saved in this browser?')){mem=[];save();render()}};
+</script>
+</body>
+</html>
